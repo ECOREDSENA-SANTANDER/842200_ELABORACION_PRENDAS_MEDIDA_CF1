@@ -193,7 +193,7 @@ export default {
       {
         titulo: '2015',
         texto:
-          'el gasto per cápita en vestuario alcanza los $267.000 con un promedio de compra de 17.4 prendas al año.',
+          'El gasto per cápita en vestuario alcanza los $267.000 con un promedio de compra de 17.4 prendas al año.',
         icono: require('@/assets/curso/context-18.svg'),
       },
       {
