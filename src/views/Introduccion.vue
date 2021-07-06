@@ -11,7 +11,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1ulQ7JQH0D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 El oficio del modisto y/o del sastre en la historia ha permitido que la industria de la moda sea uno de los pilares económicos más importantes en el mundo. Formarse en este oficio ha implicado no solo el gusto por la elaboración de vestuario, sino una entrega completa a adquirir las competencias necesarias para desarrollar con destreza los productos que se derivan de las diversas líneas que incluye este sector. Es por ello que para comprender al modisto y al sastre se hace necesario iniciar contextualizando históricamente su rol dentro de la sociedad colombiana, y así mismo, comprender su rol en el sector de la moda.
       br
