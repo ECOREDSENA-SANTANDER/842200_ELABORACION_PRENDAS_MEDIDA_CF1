@@ -11,18 +11,19 @@
     .row.mb-5
       .col-7
         p.mb-4 En los apartados anteriores se abordó el oficio del modisto y/o sastre en un contexto histórico de manera general, a continuación, se abordan los conceptos y características que los hace partícipes dentro de la industria de la moda.
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-verde-claro.p-4.mb-4
           p Según la RAE se encuentran conceptos clasificados por género, el modisto es la persona que se dedica a hacer prendas de vestir o a crear modas o modelos de ropa, principalmente para mujer. En este concepto es preciso aclarar que el término modisto ha sido empleado usualmente para el hombre, siendo el de modista atribuido a las mujeres; sin embargo, en términos de moda hasta los años 70 y 80 algunos países emplean la palabra modista también para los hombres. A su vez, sastre, se considera a la persona que tiene por oficio cortar y coser trajes, principalmente de hombre (Asale, 2021).
       .col-5
         figure
-          img(src='@/assets/curso/concept-1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema2/modisto.png', alt='Modisto')
 
     .h2.mb-4 Características principales
     p.mb-4  Como se observó en los conceptos anteriores, tanto el modisto como el sastre cumplen con las características que permiten clasificarlo dentro de un mismo oficio, antes el sastre realizaba una labor de hombres al elaborar prendas para hombres, hoy por hoy es un oficio que lo desarrollan ambos géneros, por lo tanto, el término de modisto y sastre cumplen con las siguientes funciones:
     .row.mb-5
-      .col-4.p-4
-        img(src='@/assets/curso/concept-2.svg')
-      .col-8
+      .col-1
+      .col-3.p-4
+        img(src='@/assets/curso/tema2/modista.png', alt='Modista')
+      .col-7
         ul.lista-ul--color
           li
             i.far.fa-dot-circle
@@ -57,7 +58,7 @@
     .row.mb-4
       .col-1
       .col-10
-        img(src='@/assets/curso/concept-3.svg')
+        img(src='@/assets/curso/tema2/taller.png', alt='La imagen muestra a una persona concentrada en la costura, utilizando una máquina de coser. Una lámpara de trabajo ilumina el área de costura para proporcionar una mejor visibilidad. El entorno parece ser un taller o espacio de trabajo de costura con varios objetos y materiales de costura en el fondo. La escena captura la dedicación y el enfoque que requiere la costura, destacando un momento de la artesanía textil.')
     p.mb-5 Es por ello que para todo aquel que quiera iniciarse en esta profesión debe tener en cuenta el mínimo de elementos que contiene la labor, por ejemplo, un espacio amplio, mesa de corte, máquina plana, fileteadora, insumos para corte y confección, además de insumos para la elaboración del patronaje. Por tanto, es importante tener en cuenta que estos espacios y la persona que los lidera debe cumplir con ciertos fines que requiere esta labor:
 
     figure.mb-5

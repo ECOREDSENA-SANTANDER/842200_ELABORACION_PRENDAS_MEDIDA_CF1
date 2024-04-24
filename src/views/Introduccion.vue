@@ -13,16 +13,27 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/1ulQ7JQH0D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-5 El oficio del modisto y/o del sastre en la historia ha permitido que la industria de la moda sea uno de los pilares económicos más importantes en el mundo. Formarse en este oficio ha implicado no solo el gusto por la elaboración de vestuario, sino una entrega completa a adquirir las competencias necesarias para desarrollar con destreza los productos que se derivan de las diversas líneas que incluye este sector. Es por ello que para comprender al modisto y al sastre se hace necesario iniciar contextualizando históricamente su rol dentro de la sociedad colombiana, y así mismo, comprender su rol en el sector de la moda.
-      br
-      br
-      | El sector de la moda comprende conceptos que son los que guían la fundamentación teórica y a su vez guían la práctica de quien trabaja en él. Es taxativo identificar conceptos tales como moda, vestuario, color, tendencias, entre otros, pues para todo aquel que se encuentra inmerso dentro de este mundo lleno de texturas, volúmenes, formas, etc., es necesario que identifique la línea y estética que desea desarrollar dentro del oficio, esto porque cuando se aborda la moda en general se encontrará un sin número de posibilidades en las que se puede trabajar, y para quien emprende y asume el reto de estar en este mundo es indispensable encontrar elementos que hagan que su producto se diferencie de otros y logre apostar con propuestas que satisfagan la necesidad del cliente o público objetivo al cual pretende apuntar.
-      br
-      br
-      | Es por lo anterior que uno de los principales objetivos que contiene este componente es el identificar, clasificar y determinar las características que tiene un modisto y/o sastre y su rol dentro del sector de la moda, para ello se hace indispensable la participación activa de quienes formarán parte del presente programa de formación, de esta manera se podrá integrar los conceptos a partir de:
-
-    .row.px-5.py-5(style='background-color: #F7F1D7')
+    .row
+      .col-1
+      .col-3
+        img(src='@/assets/curso/introduccion/modisto1.png' alt="Modisto")
       .col-7
+        br
+        p El oficio del modisto y/o del sastre en la historia ha permitido que la industria de la moda sea uno de los pilares económicos más importantes en el mundo. Formarse en este oficio ha implicado no solo el gusto por la elaboración de vestuario, sino una entrega completa a adquirir las competencias necesarias para desarrollar con destreza los productos que se derivan de las diversas líneas que incluye este sector. Es por ello que para comprender al modisto y al sastre se hace necesario iniciar contextualizando históricamente su rol dentro de la sociedad colombiana, y así mismo, comprender su rol en el sector de la moda.
+        p El sector de la moda comprende conceptos que son los que guían la fundamentación teórica y a su vez guían la práctica de quien trabaja en él. Es taxativo identificar conceptos tales como moda, vestuario, color, tendencias, entre otros, pues para todo aquel que se encuentra inmerso dentro de este mundo lleno de texturas, volúmenes, formas, etc., es necesario que identifique la línea y estética que desea desarrollar dentro del oficio, esto porque cuando se aborda la moda en general se encontrará un sin número de posibilidades en las que se puede trabajar, y para quien emprende y asume el reto de estar en este mundo es indispensable encontrar elementos que hagan que su producto se diferencie de otros y logre apostar con propuestas que satisfagan la necesidad del cliente o público objetivo al cual pretende apuntar.
+        br
+        br
+
+    .row(style='background-color: #BAEFE4')
+      .col-12
+        p Es por lo anterior que uno de los principales objetivos que contiene este componente es el identificar, clasificar y determinar las características que tiene un modisto y/o sastre y su rol dentro del sector de la moda, para ello se hace indispensable la participación activa de quienes formarán parte del presente programa de formación, de esta manera se podrá integrar los conceptos a partir de:
+
+    .row
+      .col-1
+      .col-6
+        br
+        br
+        br
         ul.lista-ul--color
           li
             i.far.fa-dot-circle
@@ -36,8 +47,9 @@
           li
             i.far.fa-dot-circle
             | Modificar prendas de vestir, teniendo en cuenta la arquitectura de la prenda, customizar e implementar detalles en las prendas que permitan una transformación creativa.
-      .col-5
-        img(src='@/assets/curso/introduccion-1.svg')
+      .col-4
+        br
+        img(src='@/assets/curso/introduccion/modisto2.png' alt="Persona apreciando una prenda")
 
 </template>
 

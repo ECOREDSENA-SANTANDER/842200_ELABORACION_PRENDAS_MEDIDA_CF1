@@ -1,2 +1,1 @@
-module.exports =
-  'Introducción: el modisto de moda'
+module.exports = 'Introducción: el modisto de moda'
