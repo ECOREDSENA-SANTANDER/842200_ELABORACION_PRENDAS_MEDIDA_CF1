@@ -9,19 +9,31 @@
       h1 Contextualización del modisto y el sastre
     
     //-primera caja
-    .row.align-items-center.mb-5
+    .row 
       .col-1
-      .col-10
-        .row.mb-5
-          .col.d-flex.p-4(style='background-color: #E8E8E8')
-            img(src='@/assets/curso/tema1/modisto-viejo.png', alt='Modisto con máquina de coser de la époco antigua')
-          .col.d-flex.p-4(style='background-color: #73D8C0')
-            .p-4.align-middle(style='background-color: white')
-              br
-              br
-              br
-              br
-              p Cuando se hace referencia al oficio de la costura y a quienes participan directamente en ella es necesario y casi que imposible no remontarse a la ideación de pasarelas, modelos, trajes de fiesta u ocasiones especiales, por ello es que en la historia de este oficio es importante mencionar que la palabra modisto empieza a popularizarse con uno de los primeros modistos, Charles Frederick Worth, no sin mencionar que mucho antes de su aparición, este oficio siempre ha estado a cargo de las manos de mujeres consideradas artesanas, quienes a través de telares muy rústicos construían los textiles y generaban todo tipo de acabados para adornar y embellecer las prendas.
+      .col-5.d-flex.p-4(style='background-color: #E8E8E8')
+      .col-4.d-flex.p-4(style='background-color: #73D8C0')
+      .col-1.d-flex.p-4(style='background-color: #73D8C0')
+    .row
+      .col-1
+      .col-3.d-flex.p-4(style='background-color: #E8E8E8')
+        img(src='@/assets/curso/tema1/modisto-viejo.png', alt='Modisto con máquina de coser de la époco antigua')
+      .col-6.d-flex.p-4(style)
+        p-4.align-middle(style='background-color: white')
+          p.mb-5.mt-5 Cuando se hace referencia al oficio de la costura y a quienes participan directamente en ella es necesario y casi que imposible no remontarse a la ideación de pasarelas, modelos, trajes de fiesta u ocasiones especiales, por ello es que en la historia de este oficio es importante mencionar que la palabra modisto empieza a popularizarse con uno de los primeros modistos, Charles Frederick Worth, no sin mencionar que mucho antes de su aparición, este oficio siempre ha estado a cargo de las manos de mujeres consideradas artesanas, quienes a través de telares muy rústicos construían los textiles y generaban todo tipo de acabados para adornar y embellecer las prendas.
+      .col-1(style='background-color: #73D8C0')
+    .row  
+      .col-1
+      .col-5.d-flex.p-4(style='background-color: #E8E8E8')
+      .col-5.d-flex.p-4(style='background-color: #73D8C0')
+        
+    //- icono visible
+    .row
+      .col-5
+      .col-1
+        br
+        img(src='@/assets/curso/tema1/metro.png', alt='Metro')
+      .col-5
 
     //-segunda caja
     .row
@@ -55,22 +67,29 @@
               .col-2
               .col-10
                 p.mb-0(style='font-size: 14px') Charles Frederick Worth es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.
-      .row
-        .col-6(style='background-color: #E8E8E8')
-          p.mb-0(style='font-size: 13px') Nota. Trajes Delwende (2021).
-      .row
-        .col-2
-        .col-8
-          br
-          p.mb-0(style='font-size: 13px') <strong> Figura 2. </strong>  ¿Qué es un atelier?
-          img(scr='@/assets/curso/tema1/salon.png', alt='La imagen muestra un atelier de principios del siglo XX o finales del XIX. Varias mujeres como costureras, están trabajando en prendas de vestir sobre maniquíes, todas concentradas en sus tareas, que incluyen ajustar y posiblemente adornar los tejidos. La vestimenta de las trabajadoras sugiere una época pasada, con blusas de manga larga y faldas hasta el tobillo. El ambiente es de trabajo artesanal con herramientas y telas esparcidas por la habitación. Un atelier es un taller o estudio, especialmente uno utilizado por un artista o diseñador. En el contexto de la moda, es el lugar donde un diseñador o sastre crea sus prendas de vestir, a menudo de forma artesanal y personalizada.')
-      .row 
-        .col-2
-        .col-8(style='background-color: #E8E8E8')
-          p.mb-0(style='font-size: 13px') Nota. Escribano (2019).
-      .row.align-items-center.mb-5
+    .row
+      .col-6(style='background-color: #E8E8E8')
+        p.mb-0(style='font-size: 13px') Nota. Trajes Delwende (2021).
+    
+    
+    //-salon de confeccion
+    .row
+      .col-2
+      .col-8
         br
-        img(scr='@/assets/curso/tema1/tijerasok.svg', alt='División de tijeras')
+        p.mb-0(style='font-size: 13px') <strong> Figura 2. </strong>  ¿Qué es un atelier?
+        img(scr='@/assets/curso/tema1/salon.png', alt='La imagen muestra un atelier de principios del siglo XX o finales del XIX. Varias mujeres como costureras, están trabajando en prendas de vestir sobre maniquíes, todas concentradas en sus tareas, que incluyen ajustar y posiblemente adornar los tejidos. La vestimenta de las trabajadoras sugiere una época pasada, con blusas de manga larga y faldas hasta el tobillo. El ambiente es de trabajo artesanal con herramientas y telas esparcidas por la habitación. Un atelier es un taller o estudio, especialmente uno utilizado por un artista o diseñador. En el contexto de la moda, es el lugar donde un diseñador o sastre crea sus prendas de vestir, a menudo de forma artesanal y personalizada.')
+    .row 
+      .col-2
+      .col-8(style='background-color: #E8E8E8')
+        p.mb-0(style='font-size: 13px') Nota. Escribano (2019).
+    
+    
+    //-division tijeras
+    .row
+      .col-12
+        br
+        img(scr='@/assets/curso/tema1/tijeras.png', alt='División de tijeras')
         br
 
     

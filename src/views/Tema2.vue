@@ -26,31 +26,31 @@
       .col-7
         ul.lista-ul--color
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Elaboración de prendas de vestir para hombre y mujer.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Realización de patronaje sobre pedido en trajes a la medida.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Corte de los patrones en material textil.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Modificación de prendas de vestir.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Ajustar, reparar y coser prendas de vestir.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Preparar los recursos necesarios para la confección y elaboración de prendas.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Garantizar la calidad y el cumplimiento en la entrega de prendas.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Leer a su cliente para identificar necesidades y oportunidades de optimización en la elaboración de prendas que beneficien a su consumidor.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Actualización constante en su oficio, nuevas metodologías y experimentación en patronaje frente a construcción y arquitectura de prendas.
 
     .h2.mb-4 Talleres de modistería y finalidades
@@ -58,7 +58,12 @@
     .row.mb-4
       .col-1
       .col-10
-        img(src='@/assets/curso/tema2/taller.png', alt='La imagen muestra a una persona concentrada en la costura, utilizando una máquina de coser. Una lámpara de trabajo ilumina el área de costura para proporcionar una mejor visibilidad. El entorno parece ser un taller o espacio de trabajo de costura con varios objetos y materiales de costura en el fondo. La escena captura la dedicación y el enfoque que requiere la costura, destacando un momento de la artesanía textil.')
+        .row
+          p.mb-0(style='font-size: 13px') <strong> Figura 5. </strong> Taller de costura
+        .row
+          img(src='@/assets/curso/tema2/taller.png', alt='La imagen muestra a una persona concentrada en la costura, utilizando una máquina de coser. Una lámpara de trabajo ilumina el área de costura para proporcionar una mejor visibilidad. El entorno parece ser un taller o espacio de trabajo de costura con varios objetos y materiales de costura en el fondo. La escena captura la dedicación y el enfoque que requiere la costura, destacando un momento de la artesanía textil.')
+        .row(style='background-color: #E8E8E8')
+          p.mb-0(style='font-size: 13px') Nota: Jaimes (2019).
     p.mb-5 Es por ello que para todo aquel que quiera iniciarse en esta profesión debe tener en cuenta el mínimo de elementos que contiene la labor, por ejemplo, un espacio amplio, mesa de corte, máquina plana, fileteadora, insumos para corte y confección, además de insumos para la elaboración del patronaje. Por tanto, es importante tener en cuenta que estos espacios y la persona que los lidera debe cumplir con ciertos fines que requiere esta labor:
 
     figure.mb-5
