@@ -54,19 +54,19 @@
         img(src='@/assets/curso/tema1/vestido-damaok.png', alt='La imagen muestra un maniquí vestido con un traje de época. El traje consiste en un vestido largo y elegante con una falda que se ensancha y se extiende en una cola larga. El corpiño es de color oscuro, posiblemente negro, y contrasta con la falda de color claro, probablemente blanco o crema. La falda presenta detalles de adornos o aplicaciones en un tono verde oscuro que también se observa en la cola. El diseño recuerda a la moda de finales del siglo XIX, característico del estilo de Charles Frederick Worth, considerado a menudo como el padre de la alta costura')
       .col-6
         .cajon.color-primario.p-4.mb-0
-          p.mb-4(style='font-size: 18px')  <strong> Antiguamente en la elaboración de prendas se le pagaba a alguien solo por el tiempo que invertía, más no por el diseño de la prenda, este oficio era visto como cualquier otro que era desarrollado por un obrero. </strong>      
-        br
+          p.mb-2(style='font-size: 18px')  <strong> Antiguamente en la elaboración de prendas se le pagaba a alguien solo por el tiempo que invertía, más no por el diseño de la prenda, este oficio era visto como cualquier otro que era desarrollado por un obrero. </strong>      
+        //br
         p.mb-0(style='font-size: 16px') Con la popularización del modisto Worth, el vestuario empieza a ser visto como un símbolo de distinción en el que más que una necesidad marcaba la pauta de diferenciación en las personas, todo con el fin de afianzar el estilo y la personalidad. Worth se caracterizó por su metodología en patronaje y construcción de prendas a la medida, dado que trabajaba a partir del análisis de la estructura anatómica y la ergonomía, tal era su éxito que muchos querían copiarlo y al final lo lograban, pero no alcanzaban la misma apariencia de las prendas.
         br
         .row
-          .col-2
-            br
-            img(scr='@/assets/curso/tema1/charles.png', alt='Foto de Charles Frederik Work')
-          .col-10(style='background-color: #BAEFE4')  
-            .row
-              .col-2
-              .col-10
-                p.mb-0(style='font-size: 14px') Charles Frederick Worth es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.
+          .col-3
+            //br
+            img(src='@/assets/curso/tema1/charles.png', alt='Foto de Charles Frederik Work')
+          .col-9(style='background-color: #BAEFE4')  
+            .row.esquinas-redondas-colorprimario
+              //.col-2
+              .col-12
+                p.mt-2(style='font-size: 14px') Charles Frederick Worth es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.
     .row
       .col-6(style='background-color: #E8E8E8')
         p.mb-0(style='font-size: 13px') Nota. Trajes Delwende (2021).
@@ -78,7 +78,7 @@
       .col-8
         br
         p.mb-0(style='font-size: 13px') <strong> Figura 2. </strong>  ¿Qué es un atelier?
-        img(scr='@/assets/curso/tema1/salon.png', alt='La imagen muestra un atelier de principios del siglo XX o finales del XIX. Varias mujeres como costureras, están trabajando en prendas de vestir sobre maniquíes, todas concentradas en sus tareas, que incluyen ajustar y posiblemente adornar los tejidos. La vestimenta de las trabajadoras sugiere una época pasada, con blusas de manga larga y faldas hasta el tobillo. El ambiente es de trabajo artesanal con herramientas y telas esparcidas por la habitación. Un atelier es un taller o estudio, especialmente uno utilizado por un artista o diseñador. En el contexto de la moda, es el lugar donde un diseñador o sastre crea sus prendas de vestir, a menudo de forma artesanal y personalizada.')
+        img(src='@/assets/curso/tema1/salon.png', alt='La imagen muestra un atelier de principios del siglo XX o finales del XIX. Varias mujeres como costureras, están trabajando en prendas de vestir sobre maniquíes, todas concentradas en sus tareas, que incluyen ajustar y posiblemente adornar los tejidos. La vestimenta de las trabajadoras sugiere una época pasada, con blusas de manga larga y faldas hasta el tobillo. El ambiente es de trabajo artesanal con herramientas y telas esparcidas por la habitación. Un atelier es un taller o estudio, especialmente uno utilizado por un artista o diseñador. En el contexto de la moda, es el lugar donde un diseñador o sastre crea sus prendas de vestir, a menudo de forma artesanal y personalizada.')
     .row 
       .col-2
       .col-8(style='background-color: #E8E8E8')
@@ -89,7 +89,7 @@
     .row
       .col-12
         br
-        img(scr='@/assets/curso/tema1/tijeras.png', alt='División de tijeras')
+        img(src='@/assets/curso/tema1/tijeras.png', alt='División de tijeras')
         br
 
     
