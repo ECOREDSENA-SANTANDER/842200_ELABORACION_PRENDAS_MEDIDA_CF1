@@ -28,33 +28,50 @@
       .col-1
       .col-6
         br
-        p Asi mismo, hacia 1770, nombres como el de  Rose Bertín, una de las creadoras de vestuario a la medida y que incluso llegó a ser la modista de la Reina María Antonieta se destacaba por sus apariciones en público siempre con un vestuario diferente y muy creativo, cargado de color, texturas y formas, lo cual la posicionó como influenciadora del vestuario de la época, sin duda alguna, el oficio de creación de vestuario empieza a dejar de verse como un oficio artesanal más para ser uno de los que las personas apreciaban el trabajo, no solo por el tiempo invertido (así se calculaba el precio en otras épocas) sino por los agregados y el valor visual que se le otorgaba a las prendas.
+        p.mb-4 Asi mismo, hacia 1770, nombres como el de  Rose Bertín, una de las creadoras de vestuario a la medida y que incluso llegó a ser la modista de la Reina María Antonieta se destacaba por sus apariciones en público siempre con un vestuario diferente y muy creativo, cargado de color, texturas y formas, lo cual la posicionó como influenciadora del vestuario de la época, sin duda alguna, el oficio de creación de vestuario empieza a dejar de verse como un oficio artesanal más para ser uno de los que las personas apreciaban el trabajo, no solo por el tiempo invertido (así se calculaba el precio en otras épocas) sino por los agregados y el valor visual que se le otorgaba a las prendas.
       .col-4
         img(src='@/assets/curso/tema1/dama-antigua.png', alt='Dama vestida de la epoca antigua')
+        br
       
-    //-tercera caja
-    .row.mb-5
+    //-3,4 y 5 caja
+    .row
+      .col-5
+        p.mb-0(style='font-size: 13px') <strong> Figura 1. </strong> Colecciones de temporada de Charles Frederick Worth
+    .row  
       .col-6
         img(src='@/assets/curso/tema1/vestido-damaok.png', alt='La imagen muestra un maniquí vestido con un traje de época. El traje consiste en un vestido largo y elegante con una falda que se ensancha y se extiende en una cola larga. El corpiño es de color oscuro, posiblemente negro, y contrasta con la falda de color claro, probablemente blanco o crema. La falda presenta detalles de adornos o aplicaciones en un tono verde oscuro que también se observa en la cola. El diseño recuerda a la moda de finales del siglo XIX, característico del estilo de Charles Frederick Worth, considerado a menudo como el padre de la alta costura')
       .col-6
+        .cajon.color-primario.p-4.mb-0
+          p.mb-4(style='font-size: 18px')  <strong> Antiguamente en la elaboración de prendas se le pagaba a alguien solo por el tiempo que invertía, más no por el diseño de la prenda, este oficio era visto como cualquier otro que era desarrollado por un obrero. </strong>      
         br
+        p.mb-0(style='font-size: 16px') Con la popularización del modisto Worth, el vestuario empieza a ser visto como un símbolo de distinción en el que más que una necesidad marcaba la pauta de diferenciación en las personas, todo con el fin de afianzar el estilo y la personalidad. Worth se caracterizó por su metodología en patronaje y construcción de prendas a la medida, dado que trabajaba a partir del análisis de la estructura anatómica y la ergonomía, tal era su éxito que muchos querían copiarlo y al final lo lograban, pero no alcanzaban la misma apariencia de las prendas.
         br
-        p.mb-4(style='background-color: #BAEFE4') Antiguamente en la elaboración de prendas se le pagaba a alguien solo por el tiempo que invertía, más no por el diseño de la prenda, este oficio era visto como cualquier otro que era desarrollado por un obrero.
-        p.mb-4 Con la popularización del modisto Worth, el vestuario empieza a ser visto como un símbolo de distinción en el que más que una necesidad marcaba la pauta de diferenciación en las personas, todo con el fin de afianzar el estilo y la personalidad. Worth se caracterizó por su metodología en patronaje y construcción de prendas a la medida, dado que trabajaba a partir del análisis de la estructura anatómica y la ergonomía, tal era su éxito que muchos querían copiarlo y al final lo lograban, pero no alcanzaban la misma apariencia de las prendas.
-        .cajon.color-primario.p-4.mb-4
-          img(scr='@/assets/curso/tema1/hombre.svg', alt='Foto de Charles Frederik Work')
-          p Charles Frederick Worth es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.
-
-    //-cuarta caja
-    .row.mb-5
-      .col-2
-      .col-8
-        img(scr='@/assets/curso/tema1/salon.png', alt='La imagen muestra un atelier de principios del siglo XX o finales del XIX. Varias mujeres como costureras, están trabajando en prendas de vestir sobre maniquíes, todas concentradas en sus tareas, que incluyen ajustar y posiblemente adornar los tejidos. La vestimenta de las trabajadoras sugiere una época pasada, con blusas de manga larga y faldas hasta el tobillo. El ambiente es de trabajo artesanal con herramientas y telas esparcidas por la habitación. Un atelier es un taller o estudio, especialmente uno utilizado por un artista o diseñador. En el contexto de la moda, es el lugar donde un diseñador o sastre crea sus prendas de vestir, a menudo de forma artesanal y personalizada.')
-
-    //-quinta caja
-    .row.mb-5
-      .col-12
-        img(scr='@/assets/curso/tema1/tijeras.png', alt='División de tijeras')
+        .row
+          .col-2
+            br
+            img(scr='@/assets/curso/tema1/charles.png', alt='Foto de Charles Frederik Work')
+          .col-10(style='background-color: #BAEFE4')  
+            .row
+              .col-2
+              .col-10
+                p.mb-0(style='font-size: 14px') Charles Frederick Worth es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.
+      .row
+        .col-6(style='background-color: #E8E8E8')
+          p.mb-0(style='font-size: 13px') Nota. Trajes Delwende (2021).
+      .row
+        .col-2
+        .col-8
+          br
+          p.mb-0(style='font-size: 13px') <strong> Figura 2. </strong>  ¿Qué es un atelier?
+          img(scr='@/assets/curso/tema1/salon.png', alt='La imagen muestra un atelier de principios del siglo XX o finales del XIX. Varias mujeres como costureras, están trabajando en prendas de vestir sobre maniquíes, todas concentradas en sus tareas, que incluyen ajustar y posiblemente adornar los tejidos. La vestimenta de las trabajadoras sugiere una época pasada, con blusas de manga larga y faldas hasta el tobillo. El ambiente es de trabajo artesanal con herramientas y telas esparcidas por la habitación. Un atelier es un taller o estudio, especialmente uno utilizado por un artista o diseñador. En el contexto de la moda, es el lugar donde un diseñador o sastre crea sus prendas de vestir, a menudo de forma artesanal y personalizada.')
+      .row 
+        .col-2
+        .col-8(style='background-color: #E8E8E8')
+          p.mb-0(style='font-size: 13px') Nota. Escribano (2019).
+      .row.align-items-center.mb-5
+        br
+        img(scr='@/assets/curso/tema1/tijerasok.svg', alt='División de tijeras')
+        br
 
     
     //-sexta caja
@@ -91,7 +108,7 @@
     .row.mb-5
       .col-1 
       .col-10
-        .p.mb-0 Figura 2 ¿Qué es un ateleir?
+        .p.mb-0(style='font-size: 13px') <strong> Figura 2. </strong> ¿Qué es un ateleir?
     .row.mb-5
       .col-1
       .col
@@ -115,27 +132,31 @@
             p.mb-0
               strong Cromos, julio 20 de 1929, vol. XXVIII, núm. 669
               br
-      .col-1
-    
-    .row.mb-5
+    .row.mb-0
       .col-1 
-      .col-10(style='background-color: #E8E8E8')
-        p.mb-0 Nota. Cobo y Acuña (2019).
-    
+      .col-11(style='background-color: #E8E8E8')
+        p.mb-0(style='font-size: 13px') Nota. Cobo y Acuña (2019).
     .row.mb-5
       .col-4
       .col-4
-        .h3.mb-4 Figura 4 Elegancia en la moda 
+        br
+        .p.mb-0(style='font-size: 13px') <strong> Figura 4. </strong> Elegancia en la moda 
         .shadow
           img(src='@/assets/curso/imagen-4.png')
-          .texto-imagenes.py-2.px-1
+          .texto-imagenes-new.py-2.px-1
             p.mb-0
               strong Elegancia en la moda
               br
               | Butterick 7660 (s.f.).
-
-
+    .row.mb-0
+      .col-4 
+      .col-4(style='background-color: #E8E8E8')
+        p.mb-0(style='font-size: 13px') Nota. Butterick 7660 (s.f.).
+        
+        
     //-recorrido historico  
+    br
+    br
     .h2.mb-4 Recorrido histórico de las influencias de las tendencias en Colombia
     .row.align-items-center.mb-5
       .col-2
@@ -168,13 +189,12 @@
           .col.d-flex.p-4(style='background-color: #73D8C0')
             img(src='@/assets/curso/tema1/midiendo.png', alt='Sombreros tipicos de la costa')
   
-    //--Linea de tiempo    
-    .row
-      .col-1
-      .col-10(style='background-color: #BAEFE4')
-        p.bm-0 La modista, modisto o sastre es un oficio que retrata todo un contexto histórico, social y cultural en el país, en el que se ha podido rescatar técnicas, procesos y pertenencia. Por ello, a continuación, se presenta una línea de tiempo de la moda en Colombia.
-    br
-    br
+    //--parrafo inicial y Linea de tiempo 
+    .cajon.color-primario.p-4.mb-5
+      .row
+        .col-1
+        .col-10
+          p.bm-5(style='font-size: 18px') <strong> La modista, modisto o sastre es un oficio que retrata todo un contexto histórico, social y cultural en el país, en el que se ha podido rescatar técnicas, procesos y pertenencia. Por ello, a continuación, se presenta una línea de tiempo de la moda en Colombia. </strong>
     .row.mb-5
       .col-1
         br

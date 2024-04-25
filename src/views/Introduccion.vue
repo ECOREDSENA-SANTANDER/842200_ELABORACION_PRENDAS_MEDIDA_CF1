@@ -24,9 +24,10 @@
         br
         br
 
-    .row(style='background-color: #BAEFE4')
-      .col-12
-        p Es por lo anterior que uno de los principales objetivos que contiene este componente es el identificar, clasificar y determinar las características que tiene un modisto y/o sastre y su rol dentro del sector de la moda, para ello se hace indispensable la participación activa de quienes formarán parte del presente programa de formación, de esta manera se podrá integrar los conceptos a partir de:
+    .row(style='background-color: #BAEFE4').esquinas-redondas-colorprimario
+      .col-1
+      .col-10
+        p.mb-5.mt-5 Es por lo anterior que uno de los principales objetivos que contiene este componente es el identificar, clasificar y determinar las características que tiene un modisto y/o sastre y su rol dentro del sector de la moda, para ello se hace indispensable la participación activa de quienes formarán parte del presente programa de formación, de esta manera se podrá integrar los conceptos a partir de:
 
     .row
       .col-1
@@ -36,16 +37,16 @@
         br
         ul.lista-ul--color
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Comprender al cliente a partir de las necesidades detectadas a través de un análisis anatómico, de color y estilo.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Analizar la figura humana desde lo anatómico y antropométrico, fomentando una metodología propia en la construcción del patronaje en prendas de vestir.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Desarrollar y confeccionar prendas de vestir a la medida acorde a las necesidades del cliente.
           li
-            i.far.fa-dot-circle
+            i.far.fa-dot-circle(style='color: #F5947A')
             | Modificar prendas de vestir, teniendo en cuenta la arquitectura de la prenda, customizar e implementar detalles en las prendas que permitan una transformación creativa.
       .col-4
         br

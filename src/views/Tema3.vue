@@ -32,22 +32,22 @@
           .col-2
             ul.lista-ul--color
               li
-                i.far.fa-dot-circle
+                i.far.fa-dot-circle(style='color: #F5947A')
                 | Gastronomía
               li
-                i.far.fa-dot-circle
+                i.far.fa-dot-circle(style='color: #F5947A')
                 | Música
               li
-                i.far.fa-dot-circle
+                i.far.fa-dot-circle(style='color: #F5947A')
                 | Política
               li
-                i.far.fa-dot-circle
+                i.far.fa-dot-circle(style='color: #F5947A')
                 | Conciencia ambiental
               li
-                i.far.fa-dot-circle
+                i.far.fa-dot-circle(style='color: #F5947A')
                 | Tecnología
               li
-                i.far.fa-dot-circle
+                i.far.fa-dot-circle(style='color: #F5947A')
                 | Estructuras familiares
           .col-8
             img(src='@/assets/curso/tema3/vestuarios.png', alt='Vestuarios de profesiones')
@@ -103,15 +103,17 @@
             .h2.mb-2 Vestuario
             p.mb-0 Incluye todas las prendas que una persona utiliza regularmente, tanto de vestir interior como exterior, así como accesorios. El vestuario es una necesidad básica humana y, como tal, es posible aplicar la pirámide de Maslow para entender cómo las necesidades de vestimenta evolucionan desde lo básico hasta consideraciones más complejas relacionadas con el contexto y la individualidad.
             .px-5.mt-4
-              .row 
-                .col-4
-                  p.mb-0 Figura 6. Pirámide Maslow Moda
-              img.mb-4(src='@/assets/curso/tema3/piramide.png', alt='La imagen muestra una versión estilizada de la pirámide de Maslow aplicada a la moda. La pirámide está dividida en cinco niveles, cada uno representando diferentes razones por las cuales las personas eligen su vestimenta, alineadas con los conceptos de la teoría de la jerarquía de necesidades de Maslow.')
-              p.text-center(style='font-size: 13px') “Moda sin Estereotipos”, sugiriendo la importancia de una moda que no se base en preconcepciones generalizadas.
-                //-strong Pirámide Maslow Moda
-                //-br
-                //-span “Moda sin Estereotipos”, sugiriendo la importancia de una moda que no se base en preconcepciones generalizadas.
-
+          
+        .row 
+          .col-2
+          .col-4
+            p.mb-0(style='font-size: 13px') <strong>Figura 6.</strong> Pirámide Maslow Moda
+        .row
+          .col-3 
+          .col-7  
+            img.mb-4(src='@/assets/curso/tema3/piramide.png', alt='La imagen muestra una versión estilizada de la pirámide de Maslow aplicada a la moda. La pirámide está dividida en cinco niveles, cada uno representando diferentes razones por las cuales las personas eligen su vestimenta, alineadas con los conceptos de la teoría de la jerarquía de necesidades de Maslow.')
+        .row 
+          p.text-center(style='font-size: 13px') “Moda sin Estereotipos”, sugiriendo la importancia de una moda que no se base en preconcepciones generalizadas.
 
         .row.row-lineal.py-4.mb-3
           .col-2
