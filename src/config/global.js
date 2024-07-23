@@ -2,9 +2,23 @@ export default {
   global: {
     componenteFormativo: 'Introducción: el modisto de moda',
     descripcionCurso:
-      'A lo largo de la historia el oficio de la modistería y de la confección de prendas ha dado respuesta a las necesidades de los consumidores, cubriendo así una de las necesidades básicas para el ser humano. El modisto y el sastre están comprendidos dentro del sector de la moda como uno de los oficios que requiere mayor precisión en la elaboración de prendas de vestir sobre medidas, es por ello que la conceptualización básica del sector al que pertenecen se aborda para identificar su aplicabilidad a lo largo del programa de formación, esto permite ubicar el oficio de acuerdo con el contexto social y cultural en el que se desenvuelve el aprendiz.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/modisto.png'),
+      'A lo largo de la historia el oficio de la modistería y de la confección de prendas ha dado respuesta a las necesidades de los consumidores, cubriendo así una de las necesidades básicas para el ser humano. El modisto y el sastre están comprendidos dentro del sector de la moda como uno de los oficios que requiere mayor precisión en la elaboración de prendas de vestir sobre medidas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/imagen.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo.svg'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

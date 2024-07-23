@@ -54,16 +54,17 @@
             | Actualización constante en su oficio, nuevas metodologías y experimentación en patronaje frente a construcción y arquitectura de prendas.
 
     .h2.mb-4 Talleres de modistería y finalidades
-    p.mb-4  Dentro de los espacios de trabajo del modisto y/o sastre es importante resaltar que muchos son espacios personalizados y ambientados de acuerdo con sus clientes, como se observa en la siguiente figura.
-    .row.mb-4
-      .col-1
-      .col-10
-        .row
-          p.mb-0(style='font-size: 13px') <strong> Figura 5. </strong> Taller de costura
-        .row
+    p.mb-4  Dentro de los espacios de trabajo del modisto y/o sastre es importante resaltar que muchos son espacios personalizados y ambientados de acuerdo con sus clientes.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-secundario
+          h5 Figura 5.
+          span
+            |  Taller de costura
+        figure 
           img(src='@/assets/curso/tema2/taller.png', alt='La imagen muestra a una persona concentrada en la costura, utilizando una máquina de coser. Una lámpara de trabajo ilumina el área de costura para proporcionar una mejor visibilidad. El entorno parece ser un taller o espacio de trabajo de costura con varios objetos y materiales de costura en el fondo. La escena captura la dedicación y el enfoque que requiere la costura, destacando un momento de la artesanía textil.')
-        .row(style='background-color: #E8E8E8')
-          p.mb-0(style='font-size: 13px') Nota: Jaimes (2019).
+        figcaption Nota: Jaimes (2019).
     p.mb-5 Es por ello que para todo aquel que quiera iniciarse en esta profesión debe tener en cuenta el mínimo de elementos que contiene la labor, por ejemplo, un espacio amplio, mesa de corte, máquina plana, fileteadora, insumos para corte y confección, además de insumos para la elaboración del patronaje. Por tanto, es importante tener en cuenta que estos espacios y la persona que los lidera debe cumplir con ciertos fines que requiere esta labor:
 
     figure.mb-5

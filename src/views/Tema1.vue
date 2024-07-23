@@ -27,20 +27,13 @@
       .col-5.d-flex.p-4(style='background-color: #E8E8E8')
       .col-5.d-flex.p-4(style='background-color: #73D8C0')
         
-    //- icono visible
-    .row
-      .col-5
-      .col-1
-        br
-        img(src='@/assets/curso/tema1/metro.png', alt='Metro')
-      .col-5
 
-    //-segunda caja
-    .row
+    //-segunda caja ** aqui quite metro
+    .row.mt-5.mb-5
       .col-1
       .col-6
         br
-        p.mb-4 Asi mismo, hacia 1770, nombres como el de  Rose Bertín, una de las creadoras de vestuario a la medida y que incluso llegó a ser la modista de la Reina María Antonieta se destacaba por sus apariciones en público siempre con un vestuario diferente y muy creativo, cargado de color, texturas y formas, lo cual la posicionó como influenciadora del vestuario de la época, sin duda alguna, el oficio de creación de vestuario empieza a dejar de verse como un oficio artesanal más para ser uno de los que las personas apreciaban el trabajo, no solo por el tiempo invertido (así se calculaba el precio en otras épocas) sino por los agregados y el valor visual que se le otorgaba a las prendas.
+        p.mb-4 Así mismo, hacia 1770, nombres como el de  Rose Bertín, una de las creadoras de vestuario a la medida y que incluso llegó a ser la modista de la Reina María Antonieta se destacaba por sus apariciones en público siempre con con trajes diferente y muy creativos, cargados de color, texturas y formas, lo cual la posicionó como influenciadora de la época, sin duda alguna, el oficio de la creación de vestuario ha dejado de ser percibido como un simple trabajo artesanal, para convertirse en uno de los más valorados por las personas. Este reconocimiento no solo se debe al tiempo invertido en la confección, como se solía calcular el precio en épocas pasadas, sino también a los detalles añadidos y al valor visual que se otorga a las prendas.
       .col-4
         img(src='@/assets/curso/tema1/dama-antigua.png', alt='Dama vestida de la epoca antigua')
         br
@@ -48,53 +41,41 @@
     //-3,4 y 5 caja
     .row
       .col-5
-        p.mb-0(style='font-size: 13px') <strong> Figura 1. </strong> Colecciones de temporada de Charles Frederick Worth
+        .titulo-sexto.color-secundario
+          h5 Figura 1.
+          span
+            |  Colecciones de temporada de Charles Frederick Worth
     .row  
       .col-6
-        img(src='@/assets/curso/tema1/vestido-damaok.png', alt='La imagen muestra un maniquí vestido con un traje de época. El traje consiste en un vestido largo y elegante con una falda que se ensancha y se extiende en una cola larga. El corpiño es de color oscuro, posiblemente negro, y contrasta con la falda de color claro, probablemente blanco o crema. La falda presenta detalles de adornos o aplicaciones en un tono verde oscuro que también se observa en la cola. El diseño recuerda a la moda de finales del siglo XIX, característico del estilo de Charles Frederick Worth, considerado a menudo como el padre de la alta costura')
+        figure
+          img(src='@/assets/curso/tema1/vestido-damaok.png', alt='La imagen expone un maniquí vestido con un traje de época. El traje consiste en un vestido largo y elegante con una falda que se ensancha y se extiende en una cola larga. El corpiño es de color oscuro, posiblemente negro, y contrasta con la falda de color claro, probablemente blanco o crema. La falda presenta detalles de adornos o aplicaciones en un tono verde oscuro que también se observa en la cola. El diseño recuerda a la moda de finales del siglo XIX, característico del estilo de Charles Frederick Worth, considerado a menudo como el padre de la alta costura.')
+        figcaption Nota. Trajes Delwende (2021).
       .col-6
         .cajon.color-primario.p-4.mb-0
           p.mb-2(style='font-size: 18px')  <strong> Antiguamente en la elaboración de prendas se le pagaba a alguien solo por el tiempo que invertía, más no por el diseño de la prenda, este oficio era visto como cualquier otro que era desarrollado por un obrero. </strong>      
-        //br
-        p.mb-0(style='font-size: 16px') Con la popularización del modisto Worth, el vestuario empieza a ser visto como un símbolo de distinción en el que más que una necesidad marcaba la pauta de diferenciación en las personas, todo con el fin de afianzar el estilo y la personalidad. Worth se caracterizó por su metodología en patronaje y construcción de prendas a la medida, dado que trabajaba a partir del análisis de la estructura anatómica y la ergonomía, tal era su éxito que muchos querían copiarlo y al final lo lograban, pero no alcanzaban la misma apariencia de las prendas.
-        br
+        p.mt-5.mb-3(style='font-size: 16px') Con la popularización del modisto Worth, el vestuario empieza a ser visto como un símbolo de distinción en el que más que una necesidad marcaba la pauta de diferenciación en las personas, todo con el fin de afianzar el estilo y la personalidad. Worth se caracterizó por su metodología en patronaje y construcción de prendas a la medida, dado que trabajaba a partir del análisis de la estructura anatómica y la ergonomía, tal era su éxito que muchos querían copiarlo y al final lo lograban, pero no alcanzaban la misma apariencia de las prendas.
         .row
           .col-3
-            //br
             img(src='@/assets/curso/tema1/charles.png', alt='Foto de Charles Frederik Work')
           .col-9(style='background-color: #BAEFE4')  
             .row.esquinas-redondas-colorprimario
-              //.col-2
               .col-12
-                p.mt-2(style='font-size: 14px') Charles Frederick Worth es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.
-    .row
-      .col-6(style='background-color: #E8E8E8')
-        p.mb-0(style='font-size: 13px') Nota. Trajes Delwende (2021).
-    
+                p.mt-2(style='font-size: 14px') Charles Frederick Worth es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.    
     
     //-salon de confeccion
-    .row
-      .col-2
-      .col-8
-        br
-        p.mb-0(style='font-size: 13px') <strong> Figura 2. </strong>  ¿Qué es un atelier?
-        img(src='@/assets/curso/tema1/salon.png', alt='La imagen muestra un atelier de principios del siglo XX o finales del XIX. Varias mujeres como costureras, están trabajando en prendas de vestir sobre maniquíes, todas concentradas en sus tareas, que incluyen ajustar y posiblemente adornar los tejidos. La vestimenta de las trabajadoras sugiere una época pasada, con blusas de manga larga y faldas hasta el tobillo. El ambiente es de trabajo artesanal con herramientas y telas esparcidas por la habitación. Un atelier es un taller o estudio, especialmente uno utilizado por un artista o diseñador. En el contexto de la moda, es el lugar donde un diseñador o sastre crea sus prendas de vestir, a menudo de forma artesanal y personalizada.')
-    .row 
-      .col-2
-      .col-8(style='background-color: #E8E8E8')
-        p.mb-0(style='font-size: 13px') Nota. Escribano (2019).
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-lg-8
+        .titulo-sexto.color-secundario
+          h5 Figura 2.
+          span
+            |  ¿Qué es un atelier?
+        figure
+          img(src='@/assets/curso/tema1/salon.png', alt='La imagen detalla un atelier de principios del siglo XX o finales del XIX. Varias mujeres como costureras, están trabajando en prendas de vestir sobre maniquíes, todas concentradas en sus tareas, que incluyen ajustar y posiblemente adornar los tejidos. La vestimenta de las trabajadoras sugiere una época pasada, con blusas de manga larga y faldas hasta el tobillo. El ambiente es de trabajo artesanal con herramientas y telas esparcidas por la habitación. Un atelier es un taller o estudio, especialmente uno utilizado por un artista o diseñador. En el contexto de la moda, es el lugar donde un diseñador o sastre crea sus prendas de vestir, a menudo de forma artesanal y personalizada.')
+        figcaption Nota. Escribano (2019).
     
     
-    //-division tijeras
-    .row
-      .col-12
-        br
-        img(src='@/assets/curso/tema1/tijeras.png', alt='División de tijeras')
-        br
-
-    
-    //-sexta caja
-    .row.mb-5
+    //-sexta caja aqui quite tijeras
+    .row.mb-5.mt-5
       .col-1
       .col-3
         figure
@@ -124,12 +105,15 @@
     //-anuncios publicitarios
 
     .h2.mb-4.text-center Anuncios publicitarios
-    .row.mb-5
+    .row
       .col-1 
       .col-10
-        .p.mb-0(style='font-size: 13px') <strong> Figura 2. </strong> ¿Qué es un ateleir?
-    .row.mb-5
-      .col-1
+        .titulo-sexto.color-secundario
+          h5 Figura 3.
+          span
+            |  Anuncios publicitarios
+
+    .row.justify-content-center.align-items-center.mb-5
       .col
         .shadow
           img(src='@/assets/curso/imagen-1.png')
@@ -151,17 +135,19 @@
             p.mb-0
               strong Cromos, julio 20 de 1929, vol. XXVIII, núm. 669
               br
-    .row.mb-0
-      .col-1 
-      .col-11(style='background-color: #E8E8E8')
-        p.mb-0(style='font-size: 13px') Nota. Cobo y Acuña (2019).
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-11
+        figcaption Nota. Cobo y Acuña (2019).
+      
     .row.mb-5
       .col-4
       .col-4
-        br
-        .p.mb-0(style='font-size: 13px') <strong> Figura 4. </strong> Elegancia en la moda 
+        .titulo-sexto.color-secundario
+          h5 Figura 4.
+          span
+            |  Elegancia en la moda
         .shadow
-          img(src='@/assets/curso/imagen-4.png')
+          img(src='@/assets/curso/imagen-4.png', alt="La imagen expone la portada de un antiguo patrón de costura de la marca Butterick, conocida por sus patrones para confeccionar ropa. Tiene el número de patrón 7660. En ella, se ilustran tres modelos femeninos con diferentes vestidos. La figura principal, en el centro, lleva un vestido de color rosa con un cinturón y un sombrero elegante. A la izquierda, hay otro modelo con un vestido más formal, en blanco y negro, y a la derecha, una figura con un vestido de estampado floral y un corte más casual. La portada también muestra el precio de 50 centavos, y las tallas disponibles con un busto de 32 pulgadas y talla 14. ")
           .texto-imagenes-new.py-2.px-1
             p.mb-0
               strong Elegancia en la moda
@@ -169,17 +155,16 @@
               | Butterick 7660 (s.f.).
     .row.mb-0
       .col-4 
-      .col-4(style='background-color: #E8E8E8')
-        p.mb-0(style='font-size: 13px') Nota. Butterick 7660 (s.f.).
+      .col-4
+        figcaption Nota. Butterick 7660 (s.f.).
         
         
     //-recorrido historico  
     br
     br
     .h2.mb-4 Recorrido histórico de las influencias de las tendencias en Colombia
-    .row.align-items-center.mb-5
-      .col-2
-      .col-8
+    .row.justify-content-center.align-items-center
+      .col-xs-12.col-md-10 
         .row.mb-5
           .col.d-flex.p-4(style='background-color: #E8E8E8')
             img(src='@/assets/curso/tema1/sombrero.png', alt='Sombreros tipicos de la costa')
@@ -196,9 +181,8 @@
       .col-4
         img(src='@/assets/curso/tema1/taller.png', alt='Taller de modisteria actual')
   
-    .row.align-items-center.mb-5
-      .col-2
-      .col-8
+    .row.justify-content-center.align-items-center
+      .col-xs-12.col-md-10 
         .row.mb-5
           .col.d-flex.p-4(style='background-color: #E8E8E8')
             .p-4.align-middle(style='background-color: white')
@@ -209,24 +193,91 @@
             img(src='@/assets/curso/tema1/midiendo.png', alt='Sombreros tipicos de la costa')
   
     //--parrafo inicial y Linea de tiempo 
-    .cajon.color-primario.p-4.mb-5
-      .row
-        .col-1
-        .col-10
-          p.bm-5(style='font-size: 18px') <strong> La modista, modisto o sastre es un oficio que retrata todo un contexto histórico, social y cultural en el país, en el que se ha podido rescatar técnicas, procesos y pertenencia. Por ello, a continuación, se presenta una línea de tiempo de la moda en Colombia. </strong>
-    .row.mb-5
-      .col-1
-        br
-      .col-10
-        .caja-color-rosado-claro.p-4.mb-5.textos-azules
-          p
-            strong(style='font-size: 24px;') Moda en Colombia
-            br
-          LineaTiempoB.color-primario.mb-5(:datos="datosLineaTiempoB")
-    .row.mb-5
-      .col-1 
-      .col-10(style='background-color: #E8E8E8')
-        p.mb-0 Nota. Semana (2017).
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .cajon.color-primario.p-4
+          p.p-2 <strong> La modista, modisto o sastre es un oficio que retrata todo un contexto histórico, social y cultural en el país, en el que se ha podido rescatar técnicas, procesos y pertenencia. Por ello, a continuación, se presenta una línea de tiempo de la moda en Colombia. </strong>
+    
+    .tarjeta.tarjeta--gris.p-4.mb-5
+      LineaTiempoC.color-acento-contenido(text-small)
+        .row(titulo="1907–1934")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen1.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p Comienza con el surgimiento de las primeras empresas de tejido: Coltejer, Tejicondor y Fabricato.       
+        .row(titulo="1956")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen2.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p A mediados del siglo empiezan a crecer empresas colombianas de producto terminado como Leonisa.      
+        .row(titulo="1960")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen3.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p Las recordadas Caribu, Everfit, Paños Vicuña y Pepalfa se consolidan como importantes empresas en el ámbito de la confección, ropa masculina, lana y textil respectivamente.     
+        .row(titulo="1980")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen4.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p Su énfasis en la productividad se incrementa con el apoyo del gobierno colombiano.     
+        .row(titulo="1987")
+         .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen5.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p Nace el Instituto para la Exportación y la Moda, más conocido como Inexmoda, con la tarea de internacionalizar la industria nacional.    
+        .row(titulo="1988 - 1989")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen6.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p Surge la feria de moda más importante del país Colombiamoda y, la feria textil Colombiatex, dos plataformas para dar visibilidad a esta industria y a sus transformaciones en el país.      
+        .row(titulo="1990 - 1995")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen7.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p La moda colombiana se posiciona en el mundo y diseñadores como Carolina Herrera, Badgley Miscka, Agatha Ruiz de la Prada, Custo Barcelona, entre otros visitan el país.      
+        .row(titulo="2000 - 2009")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen8.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p Durante este período de transformaciones en el mercado, las campañas colombianas se dan cuenta que tienen que cambiar su modelo de maquila para comenzar a ofrecer el llamado paquete completo; empresas como VF Corporation, Levis, Ralph Lauren empiezan a requerir de sus servicios.     
+        .row(titulo="2010 - 2014")
+          .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen9.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p Colombia experimenta un crecimiento del 5.5% del volumen de ventas de prendas de vestir y calzado.     
+        .row(titulo="2015")
+         .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen10.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p El gasto per cápita en vestuario alcanza los $267.000 con un promedio de compra de 17.4 prendas al año.    
+        .row(titulo="2019")
+         .row.justify-content-center.align-items-center
+            .col-md-4
+              figure
+                img(src='@/assets/curso/tema1/tarjeta1/imagen11.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-4.mb-md-0
+              p Inexmoda prevé que el crecimiento futuro del mercado de ropa y calzado en Colombia será mayor.    
+
     .row.mb-5
       .col-1
       .col-10
@@ -239,9 +290,10 @@
 
     .h2.mb-4 Evolución de las prendas
     p Las prendas han ido evolucionando con el pasar de los años, teniendo en cuenta diferentes factores, los cuales  determinan la decisión que toma cada persona al elegir qué ponerse a diario;  entre ellos se encuentran las condiciones físicas que tienen en cuenta el clima, la edad, la estructura, el género y la salud; la moda que establece la historia, la mercadotecnia e identidad; lo social-cultural que se relaciona con las clases sociales, la labor, la religión y los trajes típicos; lo psicológico que proyecta los estados de ánimo, desórdenes y autoestima; y por último, la sexualidad que relaciona la orientación sexual y la indumentaria.
-    .row(style='background-color: #DCF5EF')
-      img(src='@/assets/curso/tema1/grupo.png', alt='Grupo de personas')
 
+    .row.justify-content-center.align-items-center.mb-5
+      .tarjeta--boton.color-acento-contenido.p-4
+        <br> <br> <br> <br> <br> <br> <br>
 
 </template>
 

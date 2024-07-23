@@ -10,10 +10,10 @@
 
     .row.mb-5
       .col-7
-        p.mb-4 Para comprender lo que es el sistema moda es importante aclarar qué es moda, según la RAE tiene varios significados, se refiere al uso, modo o costumbre que está en boga durante algún tiempo o en determinado país; al gusto colectivo y cambiante en lo relativo a prenda––s de vestir y complementos; al conjunto de la vestimenta y los adornos de moda y, por último, al valor que aparece con mayor frecuencia en un conjunto de datos (Asale, 2021).
+        p.mb-4 Para comprender lo que es el sistema moda es importante aclarar qué es moda, según la RAE tiene varios significados, se refiere al uso, modo o costumbre que está en boga durante algún tiempo o en determinado país; al gusto colectivo y cambiante en lo relativo a prendas de vestir y complementos; al conjunto de la vestimenta y los adornos de moda y, por último, al valor que aparece con mayor frecuencia en un conjunto de datos (Asale, 2021).
           br
           br
-          | A partir de lo anterior se puede inferir que la moda en sí, es algo que está en uso por un período de tiempo, este término empezó a incorporarse dentro del sector e industria de la moda debido al comportamiento que tenían las personas frente al uso de una prenda, lo cual terminó convirtiéndose en una tendencia.
+          | A partir de lo anterior se puede inferir que la moda en sí es algo que está en uso por un período de tiempo, este término empezó a incorporarse dentro del sector e industria de la moda debido al comportamiento que tenían las personas frente al uso de una prenda, lo cual terminó convirtiéndose en una tendencia.
           br
           br
           | De manera que una tendencia es aquello por lo que un grupo tiene cierta inclinación, su durabilidad y perdurabilidad en el tiempo está determinada por los estilos de vida de los individuos, lo que a su vez hace que el término moda esté presente.
@@ -25,38 +25,38 @@
     .row.mb-5
       .col-12
         p Se llama sistema moda, dado que en sí la moda no está aislada de lo que comprende el estilo de vida de una persona, está claro que la moda y las tendencias están unidas porque una gran parte de la población opta por inclinarse hacia prendas y colores que refieren diferentes niveles sociales, que gozan de gran popularidad.  En este sentido, se entiende por estilo de vida todas aquellas áreas en las que un individuo se desenvuelve y logra interactuar en un contexto social, cultural, político, lingüístico y religioso, comprendiendo esto se logra caracterizar al sistema moda en las siguientes dimensiones:
-    .row.mb-5
-      .cajon.color-verde-claro.p-4
-        .row
-          .col-1
-          .col-2
-            ul.lista-ul--color
-              li
-                i.far.fa-dot-circle(style='color: #F5947A')
-                | Gastronomía
-              li
-                i.far.fa-dot-circle(style='color: #F5947A')
-                | Música
-              li
-                i.far.fa-dot-circle(style='color: #F5947A')
-                | Política
-              li
-                i.far.fa-dot-circle(style='color: #F5947A')
-                | Conciencia ambiental
-              li
-                i.far.fa-dot-circle(style='color: #F5947A')
-                | Tecnología
-              li
-                i.far.fa-dot-circle(style='color: #F5947A')
-                | Estructuras familiares
-          .col-8
-            img(src='@/assets/curso/tema3/vestuarios.png', alt='Vestuarios de profesiones')
-        .row 
-          .col-1
-          .col-10
-            p.mb-5 Todas estas áreas forman parte del sistema moda, ya que se mueven en torno a las tendencias y estilos de los consumidores, una persona no usa un vestuario que se encuentre en disonancia con el lugar en el que vive, los lugares que frecuenta, sus hobbies y sus actividades.
 
-    .h2.mb-4 Conceptos Claves en la Industria de la Moda
+    .row.justify-content-center.align-items-center.mb-5
+      .cajon.color-verde-claro.p-4
+        .row.align-items-center
+          .col-2
+            figure 
+              img.mt-4.mb-0.img90(src='@/assets/curso/tema3/tarjeta1/imagen1.svg', alt='Modelos')
+            figcaption.verde Gastronomía.
+          .col-2
+            figure 
+              img.mt-4.mb-0.img90(src='@/assets/curso/tema3/tarjeta1/imagen2.svg', alt='Modelos')
+            figcaption.verde Música.
+          .col-2
+            figure 
+              img.mt-2.mb-0.img100(src='@/assets/curso/tema3/tarjeta1/imagen3.svg', alt='Modelos')
+            figcaption.verde Política.
+          .col-2
+            figure 
+              img.mt-0.mb-0.img100(src='@/assets/curso/tema3/tarjeta1/imagen4.svg', alt='Modelos')
+            figcaption.verde Conciencia ambiental.
+          .col-2
+            figure 
+              img.mt-4.mb-0.img95(src='@/assets/curso/tema3/tarjeta1/imagen5.svg', alt='Modelos')
+            figcaption.verde Tecnología.
+          .col-2
+            figure 
+              img.mt-0.mb-0.img90(src='@/assets/curso/tema3/tarjeta1/imagen6.svg', alt='Modelos')
+            figcaption.verde Estructuras familiares.
+        .row.mt-5
+          p Todas estas áreas forman parte del sistema moda, ya que se mueven en torno a las tendencias y estilos de los consumidores, una persona no usa un vestuario que se encuentre en disonancia con el lugar en el que vive, los lugares que frecuenta, sus hobbies y sus actividades.
+
+    .h2.mb-4 Conceptos claves en la industria de la moda
     p.mb-5 Para profundizar en la comprensión del sector de la moda, es fundamental familiarizarse con ciertos conceptos esenciales que lo definen. A continuación, se destacan algunos de los más relevantes:
     .row
       .col-1
@@ -111,7 +111,7 @@
         .row
           .col-3 
           .col-7  
-            img.mb-4(src='@/assets/curso/tema3/piramide.png', alt='La imagen muestra una versión estilizada de la pirámide de Maslow aplicada a la moda. La pirámide está dividida en cinco niveles, cada uno representando diferentes razones por las cuales las personas eligen su vestimenta, alineadas con los conceptos de la teoría de la jerarquía de necesidades de Maslow.')
+            img.mb-4(src='@/assets/curso/tema3/piramide.png', alt='La imagen presenta una pirámide de Maslow estilizada aplicada a la moda, dividida en cinco niveles que reflejan las razones para elegir vestimenta: necesidades básicas (protección del frío), seguridad (protección moral y ética), pertenencia (aceptación social), autoestima (vestirse por consumismo) y autorrealización (vestirse para uno mismo). En la base de la pirámide se destaca "Moda sin Estereotipos", enfatizando la importancia de una moda libre de preconcepciones.')
         .row 
           p.text-center(style='font-size: 13px') “Moda sin Estereotipos”, sugiriendo la importancia de una moda que no se base en preconcepciones generalizadas.
 
