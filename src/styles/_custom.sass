@@ -2,18 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 27%
-    right: 77%
+    top: 35%
+    right: 85%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 37%
-    right: 12%
+    top: 15%
+    right: 20%
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 65%
-    right: 75%
+    top: 75%
+    right: 25%
 
 @keyframes float1
   0%
@@ -119,7 +119,7 @@
 //tarjetas con figcaption verde
 
 .verde
-  background-color: #BAEFE4
+  background-color: #73D8C0
   border-bottom-color: #025157
   border-bottom: 5px solid
   text-align: center
@@ -148,14 +148,132 @@
 // hover color - gris
 
 .tarjeta--boton.color-acento-contenido
-    border-radius: 0px
-    background-color: #E8E8E8
-    background-image: url('../assets/curso/tema1/grupo-gris.png')
-    background-repeat: round
+  border-radius: 0px
+  background-color: #E8E8E8
+  background-image: url('../assets/curso/tema1/grupo-gris.png')
+  background-repeat: round
 
 .tarjeta--boton.color-acento-contenido:active, .tarjeta--boton.color-acento-contenido:focus, .tarjeta--boton.color-acento-contenido:hover     
-    background-color: #BAEFE4
-    background-image: url('../assets/curso/tema1/grupo-color.png')
-    background-repeat: round
-    
+  background-color: #BAEFE4
+  background-image: url('../assets/curso/tema1/grupo-color.png')
+  background-repeat: round
 
+.tarjeta--boton.gastronomia
+  background-image: url('../assets/curso/tema3/tarjeta/gastronomia.png')
+  background-color: #EEFBF8
+  border-radius: 0px
+
+.tarjeta--boton.gastronomia:active, .tarjeta--boton.gastronomia:focus, .tarjeta--boton.gastronomia:hover 
+  background-image: url('../assets/curso/tema3/tarjeta/gastronomia-c.png')
+  border-radius: 0px
+  background-color: #EEFBF8
+
+.tarjeta--boton.musica
+  background-image: url('../assets/curso/tema3/tarjeta/musica.png')
+  background-color: #EEFBF8
+  border-radius: 0px
+
+.tarjeta--boton.musica:active, .tarjeta--boton.musica:focus, .tarjeta--boton.musica:hover 
+  background-image: url('../assets/curso/tema3/tarjeta/musica-c.png')
+  border-radius: 0px
+  background-color: #EEFBF8
+
+.tarjeta--boton.politica
+  background-image: url('../assets/curso/tema3/tarjeta/politica.png')
+  background-color: #EEFBF8
+  border-radius: 0px
+
+.tarjeta--boton.politica:active, .tarjeta--boton.politica:focus, .tarjeta--boton.politica:hover 
+  background-image: url('../assets/curso/tema3/tarjeta/politica-c.png')
+  border-radius: 0px
+  background-color: #EEFBF8
+
+.tarjeta--boton.conciencia
+  background-image: url('../assets/curso/tema3/tarjeta/conciencia.png')
+  background-color: #EEFBF8
+  border-radius: 0px
+
+.tarjeta--boton.conciencia:active, .tarjeta--boton.conciencia:focus, .tarjeta--boton.conciencia:hover 
+  background-image: url('../assets/curso/tema3/tarjeta/conciencia-c.png')
+  border-radius: 0px
+  background-color: #EEFBF8
+
+.tarjeta--boton.tecnologia
+  background-image: url('../assets/curso/tema3/tarjeta/tecnologia.png')
+  background-color: #EEFBF8
+  border-radius: 0px
+
+.tarjeta--boton.tecnologia:active, .tarjeta--boton.tecnologia:focus, .tarjeta--boton.tecnologia:hover 
+  background-image: url('../assets/curso/tema3/tarjeta/tecnologia-c.png')
+  border-radius: 0px
+  background-color: #EEFBF8
+
+.tarjeta--boton.estructuras
+  background-image: url('../assets/curso/tema3/tarjeta/estructuras.png')
+  background-color: #EEFBF8
+  border-radius: 0px
+
+.tarjeta--boton.estructuras:active, .tarjeta--boton.estructuras:focus, .tarjeta--boton.estructuras:hover 
+  background-image: url('../assets/curso/tema3/tarjeta/estructuras-c.png')
+  border-radius: 0px
+  background-color: #EEFBF8
+
+
+// titulos principales
+
+.titulo-principal__numero 
+  background-color: #BAEFE4 !important
+
+// sangria viñeta
+
+// sangría viñeta
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+  // avatar
+  
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+//bgs
+
+.bgverdeclaro
+  background-color: #BAEFE4 !important
+
+.bgespecial
+  background-image: url('../assets/curso/tema1/fondo1.png')
+
+.bgsalmon
+  background-color: #F5947A
+  border-radius: 0px
+
+.estilo10
+  border: 3px solid #F5947A
+
+.estilo15
+  border: 3px solid #025157
+
+.bgverdeoscuro
+  background-color: #025157
+  border-radius: 0px

@@ -7,61 +7,51 @@
       .titulo-principal__numero
         span 1
       h1 Contextualización del modisto y el sastre
-    
-    //-primera caja
-    .row 
-      .col-1
-      .col-5.d-flex.p-4(style='background-color: #E8E8E8')
-      .col-4.d-flex.p-4(style='background-color: #73D8C0')
-      .col-1.d-flex.p-4(style='background-color: #73D8C0')
-    .row
-      .col-1
-      .col-3.d-flex.p-4(style='background-color: #E8E8E8')
-        img(src='@/assets/curso/tema1/modisto-viejo.png', alt='Modisto con máquina de coser de la époco antigua')
-      .col-6.d-flex.p-4(style)
-        p-4.align-middle(style='background-color: white')
-          p.mb-5.mt-5 Cuando se hace referencia al oficio de la costura y a quienes participan directamente en ella es necesario y casi que imposible no remontarse a la ideación de pasarelas, modelos, trajes de fiesta u ocasiones especiales, por ello es que en la historia de este oficio es importante mencionar que la palabra modisto empieza a popularizarse con uno de los primeros modistos, Charles Frederick Worth, no sin mencionar que mucho antes de su aparición, este oficio siempre ha estado a cargo de las manos de mujeres consideradas artesanas, quienes a través de telares muy rústicos construían los textiles y generaban todo tipo de acabados para adornar y embellecer las prendas.
-      .col-1(style='background-color: #73D8C0')
-    .row  
-      .col-1
-      .col-5.d-flex.p-4(style='background-color: #E8E8E8')
-      .col-5.d-flex.p-4(style='background-color: #73D8C0')
-        
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            p.mb-0 Cuando se hace referencia al oficio de la costura y a quienes participan directamente en ella es necesario y casi que imposible no remontarse a la ideación de pasarelas, modelos, trajes de fiesta u ocasiones especiales, por ello es que en la historia de este oficio es importante mencionar que la palabra modisto empieza a popularizarse con uno de los primeros modistos, Charles Frederick Worth, no sin mencionar que mucho antes de su aparición, este oficio siempre ha estado a cargo de las manos de mujeres consideradas artesanas, quienes a través de telares muy rústicos construían los textiles y generaban todo tipo de acabados para adornar y embellecer las prendas.
 
     //-segunda caja ** aqui quite metro
-    .row.mt-5.mb-5
-      .col-1
-      .col-6
-        br
-        p.mb-4 Así mismo, hacia 1770, nombres como el de  Rose Bertín, una de las creadoras de vestuario a la medida y que incluso llegó a ser la modista de la Reina María Antonieta se destacaba por sus apariciones en público siempre con con trajes diferente y muy creativos, cargados de color, texturas y formas, lo cual la posicionó como influenciadora de la época, sin duda alguna, el oficio de la creación de vestuario ha dejado de ser percibido como un simple trabajo artesanal, para convertirse en uno de los más valorados por las personas. Este reconocimiento no solo se debe al tiempo invertido en la confección, como se solía calcular el precio en épocas pasadas, sino también a los detalles añadidos y al valor visual que se otorga a las prendas.
-      .col-4
-        img(src='@/assets/curso/tema1/dama-antigua.png', alt='Dama vestida de la epoca antigua')
-        br
+
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-sm-12.col-md-6.col-lg-6
+        p.mb-4.mt-1 Así mismo, hacia 1770, nombres como el de  Rose Bertín, una de las creadoras de vestuario a la medida y que incluso llegó a ser la modista de la Reina María Antonieta se destacaba por sus apariciones en público siempre con trajes diferente y muy creativos, cargados de color, texturas y formas, lo cual la posicionó como influenciadora de la época, sin duda alguna, el oficio de la creación de vestuario ha dejado de ser percibido como un simple trabajo artesanal, para convertirse en uno de los más valorados por las personas. Este reconocimiento no solo se debe al tiempo invertido en la confección, como se solía calcular el precio en épocas pasadas, sino también a los detalles añadidos y al valor visual que se otorga a las prendas.
+      .col-4.col-md-4.col-lg-4
+        img.mb-1(src='@/assets/curso/tema1/dama-antigua.png', alt='Dama vestida de la epoca antigua')
       
     //-3,4 y 5 caja
-    .row
-      .col-5
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-12.col-md-5.col-lg-5
         .titulo-sexto.color-secundario
           h5 Figura 1.
           span
             |  Colecciones de temporada de Charles Frederick Worth
-    .row  
-      .col-6
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-6.col-md-6.col-lg-6
         figure
           img(src='@/assets/curso/tema1/vestido-damaok.png', alt='La imagen expone un maniquí vestido con un traje de época. El traje consiste en un vestido largo y elegante con una falda que se ensancha y se extiende en una cola larga. El corpiño es de color oscuro, posiblemente negro, y contrasta con la falda de color claro, probablemente blanco o crema. La falda presenta detalles de adornos o aplicaciones en un tono verde oscuro que también se observa en la cola. El diseño recuerda a la moda de finales del siglo XIX, característico del estilo de Charles Frederick Worth, considerado a menudo como el padre de la alta costura.')
         figcaption Nota. Trajes Delwende (2021).
-      .col-6
+      .col-sm-12.col-md-6.col-lg-6
         .cajon.color-primario.p-4.mb-0
-          p.mb-2(style='font-size: 18px')  <strong> Antiguamente en la elaboración de prendas se le pagaba a alguien solo por el tiempo que invertía, más no por el diseño de la prenda, este oficio era visto como cualquier otro que era desarrollado por un obrero. </strong>      
-        p.mt-5.mb-3(style='font-size: 16px') Con la popularización del modisto Worth, el vestuario empieza a ser visto como un símbolo de distinción en el que más que una necesidad marcaba la pauta de diferenciación en las personas, todo con el fin de afianzar el estilo y la personalidad. Worth se caracterizó por su metodología en patronaje y construcción de prendas a la medida, dado que trabajaba a partir del análisis de la estructura anatómica y la ergonomía, tal era su éxito que muchos querían copiarlo y al final lo lograban, pero no alcanzaban la misma apariencia de las prendas.
+          p.mb-2 #[b  Antiguamente en la elaboración de prendas se le pagaba a alguien solo por el tiempo que invertía, más no por el diseño de la prenda, este oficio era visto como cualquier otro que era desarrollado por un obrero.  ]      
+        p.mt-3.mb-3 Con la popularización del modisto Worth, el vestuario empieza a ser visto como un símbolo de distinción en el que más que una necesidad marcaba la pauta de diferenciación en las personas, todo con el fin de afianzar el estilo y la personalidad. Worth se caracterizó por su metodología en patronaje y construcción de prendas a la medida, dado que trabajaba a partir del análisis de la estructura anatómica y la ergonomía, tal era su éxito que muchos querían copiarlo y al final lo lograban, pero no alcanzaban la misma apariencia de las prendas.
         .row
-          .col-3
-            img(src='@/assets/curso/tema1/charles.png', alt='Foto de Charles Frederik Work')
-          .col-9(style='background-color: #BAEFE4')  
-            .row.esquinas-redondas-colorprimario
-              .col-12
-                p.mt-2(style='font-size: 14px') Charles Frederick Worth es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.    
-    
+          .col-12
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/tema1/charles.png' alt='AvatarTop')
+              .tarjeta.bgverdeclaro
+                .p-4
+                  p #[b Charles Frederick Worth] es considerado el padre de la alta costura, fue un visionario para la época, desarrolló los primeros desfiles de moda, incorporó la etiqueta y marquilla a los trajes, fundó la cámara sindical de alta costura e incursionó en el modelo de venta de trajes en almacenes al público. En la siguiente figura se aprecia el Atelier de Worth.
+
+
     //-salon de confeccion
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-8
@@ -75,128 +65,97 @@
     
     
     //-sexta caja aqui quite tijeras
-    .row.mb-5.mt-5
-      .col-1
-      .col-3
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-3.col-md-3.col-lg-3
         figure
           img(src='@/assets/curso/tema1/dama-cociendo.svg', alt='Dama antigua en una máquina de cocer')
-      .col-7
-        .h2.mb-4 Contexto histórico y cultural del modisto y el sastre en Colombia
-        p.mb-4 En Colombia el oficio de la modistería se remonta aproximadamente a la época de 1900 e incluso, mucho antes si se habla de la época colonial y de la conquista, pues anteriormente la costura y su modelo de producción se remonta a 1700 con la llegada de los españoles y la constitución de lo que sería la nueva civilización, este fenómeno trajo consigo la implementación de aquellas estructuras comerciales y, por ende, la introducción de todos los oficios artesanales en la región.
-          br
-          br
-          | La modistería en Colombia inicialmente retrataba lo que las clases altas vestían, muchos de estos trajes eran traídos de otros países, ello generaba gran expectativa en las personas que de alguna manera no poseían los recursos para poder vestir como lo hacían algunos sectores que gozaban de un poder adquisitivo alto.
-          br
-          br
-          | En Colombia empezó a verse con mayor frecuencia en los años 20 almacenes y boutiques en los que trabajaban modistos y artesanos que producían prendas a la medida, este fenómeno fomentó gran curiosidad en las personas que elaboraban prendas de forma artesanal, razón por la cual se incrementó la creación de talleres de costura pequeños, liderados en gran parte por mujeres que aportaban económicamente a sus hogares.
+      .col-sm-12.col-md-7.col-lg-7
+        h3.mb-4 Contexto histórico y cultural del modisto y el sastre en Colombia
+        p.mb-3 En Colombia el oficio de la modistería se remonta aproximadamente a la época de 1900 e incluso, mucho antes si se habla de la época colonial y de la conquista, pues anteriormente la costura y su modelo de producción se remonta a 1700 con la llegada de los españoles y la constitución de lo que sería la nueva civilización, este fenómeno trajo consigo la implementación de aquellas estructuras comerciales y, por ende, la introducción de todos los oficios artesanales en la región.
+        p.mb-3 La modistería en Colombia inicialmente retrataba lo que las clases altas vestían, muchos de estos trajes eran traídos de otros países, ello generaba gran expectativa en las personas que de alguna manera no poseían los recursos para poder vestir como lo hacían algunos sectores que gozaban de un poder adquisitivo alto.
+        p.mb-3 En Colombia empezó a verse con mayor frecuencia en los años 20 almacenes y boutiques en los que trabajaban modistos y artesanos que producían prendas a la medida, este fenómeno fomentó gran curiosidad en las personas que elaboraban prendas de forma artesanal, razón por la cual se incrementó la creación de talleres de costura pequeños, liderados en gran parte por mujeres que aportaban económicamente a sus hogares.
 
-    //-septima caja
-    .cajon.color-primario.p-4.mb-5
-      .row
-        .col-9
-          p Estos talleres se popularizaron aún más en los años 40 y aquellas modistas ya podían encontrarse en ciudades y pueblos, eran buscadas por muchas personas que anhelaban poder vestirse con una prenda confeccionada y a la medida, todo ello enmarcado dentro de un contexto social, en el que se implicaban las costumbres de la época y tendencias que por lo general eran implementadas por otros países.
-            br
-            br
-            | La información al respecto se divulgaba en revistas, periódicos y los llamados figurines, que se convirtieron en un recurso fundamental para las modistas y costureros, a través del cual los clientes expresaban qué prenda querían que se les confeccionara. De manera que en las dos figuras que aparecen a continuación, se puede apreciar dos ejemplos de la información que circulaba en algunas revistas.
-        .col-3
-          figure
-            img(src='@/assets/curso/tema1/modista-actual.png', alt='Texto que describa la imagen')
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .cajon.bgespecial
+        .col-sm-12.col-md-6.col-lg-6
+          .row.ps-5.mb-5.mt-5
+            p.mt-1 Estos talleres se popularizaron aún más en los años 40 y aquellas modistas ya podían encontrarse en ciudades y pueblos, eran buscadas por muchas personas que anhelaban poder vestirse con una prenda confeccionada y a la medida, todo ello enmarcado dentro de un contexto social, en el que se implicaban las costumbres de la época y tendencias que por lo general eran implementadas por otros países.
+            p.mb-1 La información al respecto se divulgaba en revistas, periódicos y los llamados figurines, que se convirtieron en un recurso fundamental para las modistas y costureros, a través del cual los clientes expresaban qué prenda querían que se les confeccionara. De manera que en las dos figuras que aparecen a continuación, se puede apreciar dos ejemplos de la información que circulaba en algunas revistas.
 
     //-anuncios publicitarios
 
-    .h2.mb-4.text-center Anuncios publicitarios
-    .row
-      .col-1 
-      .col-10
+    .row 
+      .col-sm-12.col-md-9.col-lg-9
         .titulo-sexto.color-secundario
           h5 Figura 3.
           span
-            |  Anuncios publicitarios
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col
-        .shadow
-          img(src='@/assets/curso/imagen-1.png')
-          .texto-imagenes.py-2.px-1
-            p.mb-0
-              strong Cromos, enero 2 de 1924, vol. 17, núm. 386
-              br
-      .col
-        .shadow
-          img(src='@/assets/curso/imagen-2.png')
-          .texto-imagenes.py-2.px-1
-            p.mb-0
-              strong Cromos, julio 25 de 1925, vol. 20, núm. 466
-              br
-      .col
-        .shadow
-          img(src='@/assets/curso/imagen-3.png')
-          .texto-imagenes.py-2.px-1
-            p.mb-0
-              strong Cromos, julio 20 de 1929, vol. XXVIII, núm. 669
-              br
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-11
-        figcaption Nota. Cobo y Acuña (2019).
-      
-    .row.mb-5
-      .col-4
-      .col-4
+            | Anuncios publicitarios
+      .col-sm-12.col-md-3.col-lg-3
         .titulo-sexto.color-secundario
           h5 Figura 4.
           span
-            |  Elegancia en la moda
-        .shadow
-          img(src='@/assets/curso/imagen-4.png', alt="La imagen expone la portada de un antiguo patrón de costura de la marca Butterick, conocida por sus patrones para confeccionar ropa. Tiene el número de patrón 7660. En ella, se ilustran tres modelos femeninos con diferentes vestidos. La figura principal, en el centro, lleva un vestido de color rosa con un cinturón y un sombrero elegante. A la izquierda, hay otro modelo con un vestido más formal, en blanco y negro, y a la derecha, una figura con un vestido de estampado floral y un corte más casual. La portada también muestra el precio de 50 centavos, y las tallas disponibles con un busto de 32 pulgadas y talla 14. ")
-          .texto-imagenes-new.py-2.px-1
-            p.mb-0
-              strong Elegancia en la moda
-              br
-              | Butterick 7660 (s.f.).
-    .row.mb-0
-      .col-4 
-      .col-4
-        figcaption Nota. Butterick 7660 (s.f.).
-        
-        
-    //-recorrido historico  
-    br
-    br
-    .h2.mb-4 Recorrido histórico de las influencias de las tendencias en Colombia
+            | Elegancia en la moda
     .row.justify-content-center.align-items-center
-      .col-xs-12.col-md-10 
-        .row.mb-5
-          .col.d-flex.p-4(style='background-color: #E8E8E8')
-            img(src='@/assets/curso/tema1/sombrero.png', alt='Sombreros tipicos de la costa')
-          .col.d-flex.p-4(style='background-color: #73D8C0')
-            .p-4.align-middle(style='background-color: white')
-              br
-              br
-              p.mb-5 Como se ha mencionado anteriormente la modistería y la confección en Colombia se han destacado por ser un oficio realizado por muchas personas, quienes, en su gran mayoría, son considerados artesanos, pues independientemente del seguimiento a múltiples tendencias, la huella cultural reflejada en formas y colores caracteriza al país.
-    .row
-      .col-1
-      .col-6
+      .col-sm-12.col-md-3.col-lg-3
+        .tajeta.estilo10       
+          img(src='@/assets/curso/imagen-1.png' alt="La imagen expone una compilación de tres anuncios publicitarios de principios del siglo XX, tal como se presentarían en una revista o periódico de la época. Cada anuncio presenta ilustraciones de mujeres y textos que destacan el producto anunciado. El anuncio de la izquierda, fechado el 2 de enero de 1924, parece promocionar un producto relacionado con la higiene. El anuncio del centro, del 25 de julio de 1925, publicita una “Crema para Blanquear” de una Sra. Gervaise Graham y hace referencia a problemas de la piel como pecas, manchas y espinillas. El anuncio de la derecha, del 20 de julio de 1929, presenta lo que parece ser un vestido u otra prenda de moda femenina. La ilustración muestra a una mujer con un vestido elegante y el texto probablemente describa las características o el atractivo del vestido.")
+        .tarjeta.bgsalmon
+            p.text-center.p-3 #[b Cromos, enero 2 de 1924, vol. 17, núm. 386]
+      .col-sm-12.col-md-3.col-lg-3
+        .tajeta.estilo10       
+          img(src='@/assets/curso/imagen-2.png' alt="La imagen expone una compilación de tres anuncios publicitarios de principios del siglo XX, tal como se presentarían en una revista o periódico de la época. Cada anuncio presenta ilustraciones de mujeres y textos que destacan el producto anunciado. El anuncio de la izquierda, fechado el 2 de enero de 1924, parece promocionar un producto relacionado con la higiene. El anuncio del centro, del 25 de julio de 1925, publicita una “Crema para Blanquear” de una Sra. Gervaise Graham y hace referencia a problemas de la piel como pecas, manchas y espinillas. El anuncio de la derecha, del 20 de julio de 1929, presenta lo que parece ser un vestido u otra prenda de moda femenina. La ilustración muestra a una mujer con un vestido elegante y el texto probablemente describa las características o el atractivo del vestido.")
+        .tarjeta.bgsalmon
+            p.text-center.p-3 #[b Cromos, julio 25 de 1925, vol. 20, núm. 466.]
+      .col-sm-12.col-md-3.col-lg-3
+        .tajeta.estilo10       
+          img(src='@/assets/curso/imagen-3.png' alt="La imagen expone una compilación de tres anuncios publicitarios de principios del siglo XX, tal como se presentarían en una revista o periódico de la época. Cada anuncio presenta ilustraciones de mujeres y textos que destacan el producto anunciado. El anuncio de la izquierda, fechado el 2 de enero de 1924, parece promocionar un producto relacionado con la higiene. El anuncio del centro, del 25 de julio de 1925, publicita una “Crema para Blanquear” de una Sra. Gervaise Graham y hace referencia a problemas de la piel como pecas, manchas y espinillas. El anuncio de la derecha, del 20 de julio de 1929, presenta lo que parece ser un vestido u otra prenda de moda femenina. La ilustración muestra a una mujer con un vestido elegante y el texto probablemente describa las características o el atractivo del vestido.")
+        .tarjeta.bgsalmon
+            p.text-center.p-3 #[b Cromos, julio 20 de 1929, vol. XXVIII, núm. 669.]
+      .col-sm-12.col-md-3.col-lg-3
+        .tajeta.estilo15       
+          img(src='@/assets/curso/imagen-4.png' alt="La imagen expone la portada de un antiguo patrón de costura de la marca Butterick, conocida por sus patrones para confeccionar ropa. Tiene el número de patrón 7660. En ella, se ilustran tres modelos femeninos con diferentes vestidos. La figura principal, en el centro, lleva un vestido de color rosa con un cinturón y un sombrero elegante. A la izquierda, hay otro modelo con un vestido más formal, en blanco y negro, y a la derecha, una figura con un vestido de estampado floral y un corte más casual. La portada también muestra el precio de 50 centavos, y las tallas disponibles con un busto de 32 pulgadas y talla 14. ")
+        .tarjeta.bgverdeoscuro
+            p.text-center.text-white.p-3 #[b Elegancia en la moda Butterick 7660 (s.f.).]
+    .row.mb-5 
+      .col-sm-12.col-md-9.col-lg-9
+        figcaption Nota. Cobo y Acuña (2019).
+      .col-sm-12.col-md-3.col-lg-3
+        figcaption Nota. Butterick 7660 (s.f.).
+
+    .h3.mb-5 Recorrido histórico de las influencias de las tendencias en Colombia
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/sombrero.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            p.mb-0 Como se ha mencionado anteriormente la modistería y la confección en Colombia se han destacado por ser un oficio realizado por muchas personas, quienes, en su gran mayoría, son considerados artesanos, pues independientemente del seguimiento a múltiples tendencias, la huella cultural reflejada en formas y colores caracteriza al país.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-12.col-md-6.col-lg-6
         p.bm-5 En Colombia en los años 40 se acentuó la transformación de la industria textil, dado a que empezaron a ser mucho más relevantes aquellas empresas dedicadas a la producción de prendas de vestir, y a la producción y transformación de materia prima. 
         p.bm-5 Este fenómeno generó que modistas dedicadas al oficio en sus talleres, muchos de ellos ubicados en sus casas, laboraran en empresas como por ejemplo, Everfit, empresa que se dedicaba al corte y confección de prendas, lo cual produjo que la labor artesanal desarrollada en los talleres pasará a ser más industrial con la ayuda de maquinaria y procesos establecidos para el rendimiento y aprovechamiento del tiempo, así las modistas que en un inicio conservaban este  nombre pasaron, en muchas ocasiones, a realizar solo una tarea como el despeluce y el acabado final de la prenda de acuerdo con las tareas que se realizaban en una fábrica (Mesa, 2014).
-      .col-4
+      .col-4.col-md-4.col-lg-4
         img(src='@/assets/curso/tema1/taller.png', alt='Taller de modisteria actual')
   
-    .row.justify-content-center.align-items-center
-      .col-xs-12.col-md-10 
-        .row.mb-5
-          .col.d-flex.p-4(style='background-color: #E8E8E8')
-            .p-4.align-middle(style='background-color: white')
-              br
-              br
-              p.mb-5 Sin embargo, esto no ocasionó que se acabara el oficio y la oportunidad que significaba para muchos contar con una persona que pudiera elaborar prendas a la medida, por lo que terminó siendo una labor que se apreció aún más y, que independiente de estar en un contexto en el que la productividad primaba, la distinción y la exclusividad fueron y seguirán siendo perseguidas por muchos.
-          .col.d-flex.p-4(style='background-color: #73D8C0')
-            img(src='@/assets/curso/tema1/midiendo.png', alt='Sombreros tipicos de la costa')
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/midiendo.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            p.mb-0 Sin embargo, esto no ocasionó que se acabara el oficio y la oportunidad que significaba para muchos contar con una persona que pudiera elaborar prendas a la medida, por lo que terminó siendo una labor que se apreció aún más y, que independiente de estar en un contexto en el que la productividad primaba, la distinción y la exclusividad fueron y seguirán siendo perseguidas por muchos.
   
     //--parrafo inicial y Linea de tiempo 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-primario.p-4
-          p.p-2 <strong> La modista, modisto o sastre es un oficio que retrata todo un contexto histórico, social y cultural en el país, en el que se ha podido rescatar técnicas, procesos y pertenencia. Por ello, a continuación, se presenta una línea de tiempo de la moda en Colombia. </strong>
+          p.p-2 #[b  La modista, modisto o sastre es un oficio que retrata todo un contexto histórico, social y cultural en el país, en el que se ha podido rescatar técnicas, procesos y pertenencia. Por ello, a continuación, se presenta una línea de tiempo de la moda en Colombia.  ]
     
     .tarjeta.tarjeta--gris.p-4.mb-5
       LineaTiempoC.color-acento-contenido(text-small)
@@ -278,14 +237,11 @@
             .col-md-7.mb-4.mb-md-0
               p Inexmoda prevé que el crecimiento futuro del mercado de ropa y calzado en Colombia será mayor.    
 
-    .row.mb-5
-      .col-1
-      .col-10
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-12.col-md-10.col-lg-10
         p.mb-4.text-center Al igual que una línea de tiempo sobre el uso de las prendas.
         .caja-color-rosado-claro.p-4.mb-5.textos-azules
-          p
-            strong(style='font-size: 24px;') Uso de las prendas
-            br
+          h4.mb-3 Uso de las prendas
           LineaTiempoB.color-primario.mb-5(:datos="datosLineaTiempoC")
 
     .h2.mb-4 Evolución de las prendas
@@ -293,7 +249,10 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta--boton.color-acento-contenido.p-4
-        <br> <br> <br> <br> <br> <br> <br>
+        .row.mb-5.mt-5
+        .row.mb-5.mt-5
+        .row.mb-5.mt-5
+        .row.mb-5.mt-5
 
 </template>
 
@@ -444,13 +403,13 @@ export default {
       {
         titulo: 'Edad contemporánea (Siglo XX)',
         texto:
-          'Silueta reloj de arena, el corsé de metal o de ballenas, faldas largas o blazers, sujetador, estética flapper, traje de baño, el uso del pantalón. ',
+          'Silueta reloj de arena, el corsé de metal o de ballenas, faldas largas o blazers, sujetador, estética <em>flapper</em>, traje de baño, el uso del pantalón. ',
         icono: require('@/assets/curso/context-32.svg'),
       },
       {
         titulo: 'Edad contemporánea (Siglo XXI)',
         texto:
-          'Jeans de tiro bajo, minifaldas, short, zuecos o sandalias, estampados animal print, fast fashion, pantalón pitillo, escote en V, supraciclaje, pantalón tiro alto, blusas campesinas.',
+          'Jeans de tiro bajo, minifaldas, <em>short</em>, zuecos o sandalias, estampados <em>animal print, fast fashion</em>, pantalón pitillo, escote en V, supraciclaje, pantalón tiro alto, blusas campesinas.',
         icono: require('@/assets/curso/context-33.svg'),
       },
     ],
