@@ -9,20 +9,20 @@
       h1 Conceptualización del modisto y el sastre
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-md-8.col-lg-8
+      .col-sm-12.col-md-7.col-lg-8
         p.mb-4 En los apartados anteriores se abordó el oficio del modisto y/o sastre en un contexto histórico de manera general, a continuación, se abordan los conceptos y características que los hace partícipes dentro de la industria de la moda.
         .cajon.color-primario.p-4.mb-4
           p Según la RAE se encuentran conceptos clasificados por género, el modisto es la persona que se dedica a hacer prendas de vestir o a crear modas o modelos de ropa, principalmente para mujer. En este concepto es preciso aclarar que el término modisto ha sido empleado usualmente para el hombre, siendo el de modista atribuido a las mujeres; sin embargo, en términos de moda hasta los años 70 y 80 algunos países emplean la palabra modista también para los hombres. A su vez, sastre, se considera a la persona que tiene por oficio cortar y coser trajes, principalmente de hombre (Asale, 2021).
-      .col-4.col-md-4.col-lg-4
+      .col-8.col-md-5.col-lg-4
         figure
           img(src='@/assets/curso/tema2/modisto.png', alt='Modisto')
 
     .h3.mb-4 Características principales
     p.mb-4  Como se observó en los conceptos anteriores, tanto el modisto como el sastre cumplen con las características que permiten clasificarlo dentro de un mismo oficio, antes el sastre realizaba una labor de hombres al elaborar prendas para hombres, hoy por hoy es un oficio que lo desarrollan ambos géneros, por lo tanto, el término de modisto y sastre cumplen con las siguientes funciones:
     .row.justify-content-center.align-items-center.mb-5
-      .col-3.col-md-3.col-lg-3
+      .col-8.col-md-4.col-lg-3
         img(src='@/assets/curso/tema2/modista.png', alt='Modista')
-      .col-sm-12.col-md-7.col-lg-7
+      .col-sm-12.col-md-8.col-lg-7
         ul.lista-ul--color.fa-ul
           li
             i.far.fa-dot-circle(style='color: #F5947A')

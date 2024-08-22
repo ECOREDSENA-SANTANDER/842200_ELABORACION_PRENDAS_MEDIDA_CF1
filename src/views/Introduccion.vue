@@ -15,7 +15,7 @@
       figcaption Video
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-3.col-md-3.col-lg-3
+      .col-8.col-md-3.col-lg-3
         img(src='@/assets/curso/introduccion/modisto1.png' alt="Modisto")
       .col-sm-12.col-md-7.col-lg-7
         p.mt-3 El oficio del modisto y/o del sastre en la historia ha permitido que la industria de la moda sea uno de los pilares económicos más importantes en el mundo. Formarse en este oficio ha implicado no solo el gusto por la elaboración de vestuario, sino una entrega completa a adquirir las competencias necesarias para desarrollar con destreza los productos que se derivan de las diversas líneas que incluye este sector. Es por ello que para comprender al modisto y al sastre se hace necesario iniciar contextualizando históricamente su rol dentro de la sociedad colombiana, y así mismo, comprender su rol en el sector de la moda.
@@ -23,7 +23,7 @@
 
     .row.justify-content-center.align-items-center.esquinas-redondas-colorprimario.mb-5(style='background-color: #BAEFE4')
       .col-lg-12
-        p.p-5 Es por lo anterior que uno de los principales objetivos que contiene este componente es el identificar, clasificar y determinar las características que tiene un modisto y/o sastre y su rol dentro del sector de la moda, para ello se hace indispensable la participación activa de quienes formarán parte del presente programa de formación, de esta manera se podrá integrar los conceptos a partir de:
+        p.p-4 Es por lo anterior que uno de los principales objetivos que contiene este componente es el identificar, clasificar y determinar las características que tiene un modisto y/o sastre y su rol dentro del sector de la moda, para ello se hace indispensable la participación activa de quienes formarán parte del presente programa de formación, de esta manera se podrá integrar los conceptos a partir de:
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -41,7 +41,7 @@
           li
             i.far.fa-dot-circle(style='color: #F5947A')
             | Modificar prendas de vestir, teniendo en cuenta la arquitectura de la prenda, customizar e implementar detalles en las prendas que permitan una transformación creativa.
-      .col-4.col-md-4.col-lg-4
+      .col-10.col-md-4.col-lg-4
         img(src='@/assets/curso/introduccion/modisto2.png' alt="Persona apreciando una prenda")
 
 </template>

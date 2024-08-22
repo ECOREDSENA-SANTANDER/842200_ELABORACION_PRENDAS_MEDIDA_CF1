@@ -9,11 +9,11 @@
       h1 Sistema moda
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-md-8.col-lg-8
+      .col-sm-12.col-md-7.col-lg-8
         p Para comprender lo que es el sistema moda es importante aclarar qué es moda, según la RAE tiene varios significados, se refiere al uso, modo o costumbre que está en boga durante algún tiempo o en determinado país; al gusto colectivo y cambiante en lo relativo a prendas de vestir y complementos; al conjunto de la vestimenta y los adornos de moda y, por último, al valor que aparece con mayor frecuencia en un conjunto de datos (Asale, 2021).
         p A partir de lo anterior se puede inferir que la moda en sí es algo que está en uso por un período de tiempo, este término empezó a incorporarse dentro del sector e industria de la moda debido al comportamiento que tenían las personas frente al uso de una prenda, lo cual terminó convirtiéndose en una tendencia.
         p De manera que una tendencia es aquello por lo que un grupo tiene cierta inclinación, su durabilidad y perdurabilidad en el tiempo está determinada por los estilos de vida de los individuos, lo que a su vez hace que el término moda esté presente.
-      .col-4.col-md-4.col-lg-4
+      .col-10.col-md-5.col-lg-4
         figure
           img(src='@/assets/curso/tema3/modelos.png', alt='Modelos')
 
@@ -23,32 +23,32 @@
         p Se llama sistema moda, dado que en sí la moda no está aislada de lo que comprende el estilo de vida de una persona, está claro que la moda y las tendencias están unidas porque una gran parte de la población opta por inclinarse hacia prendas y colores que refieren diferentes niveles sociales, que gozan de gran popularidad.  En este sentido, se entiende por estilo de vida todas aquellas áreas en las que un individuo se desenvuelve y logra interactuar en un contexto social, cultural, político, lingüístico y religioso, comprendiendo esto se logra caracterizar al sistema moda en las siguientes dimensiones:
 
     .row.justify-content-center.align-items-center.mb-5(style='background-color: #EEFBF8')
-      .col-sm-6.col-md-2.col-lg-2
+      .col-6.col-md-4.col-lg-2
         .tarjeta--boton.gastronomia.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Gastronomía.
-      .col-sm-6.col-md-2.col-lg-2
+      .col-6.col-md-4.col-lg-2
         .tarjeta--boton.musica.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Música.
-      .col-sm-6.col-md-2.col-lg-2
+      .col-6.col-md-4.col-lg-2
         .tarjeta--boton.politica.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Política.
-      .col-sm-6.col-md-2.col-lg-2
+      .col-6.col-md-4.col-lg-2
         .tarjeta--boton.conciencia.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Conciencia ambiental.
-      .col-sm-6.col-md-2.col-lg-2
+      .col-6.col-md-4.col-lg-2
         .tarjeta--boton.tecnologia.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Tecnología.
-      .col-sm-6.col-md-2.col-lg-2
+      .col-6.col-md-4.col-lg-2
         .tarjeta--boton.estructuras.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
@@ -104,7 +104,7 @@
             .px-5.mt-4
           
         .row.justify-content-center.align-items-center.mb-5
-          .col-sm-12.col-md-7.col-lg-7
+          .col-12.col-md-12.col-lg-7
             .titulo-sexto.color-secundario
               h5 Figura 6.
               span

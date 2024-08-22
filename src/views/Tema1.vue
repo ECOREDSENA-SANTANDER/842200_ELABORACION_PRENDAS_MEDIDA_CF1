@@ -9,7 +9,7 @@
       h1 Contextualización del modisto y el sastre
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-10
+      .col-12.col-md-10.col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
@@ -22,11 +22,11 @@
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-sm-12.col-md-6.col-lg-6
         p.mb-4.mt-1 Así mismo, hacia 1770, nombres como el de  Rose Bertín, una de las creadoras de vestuario a la medida y que incluso llegó a ser la modista de la Reina María Antonieta se destacaba por sus apariciones en público siempre con trajes diferente y muy creativos, cargados de color, texturas y formas, lo cual la posicionó como influenciadora de la época, sin duda alguna, el oficio de la creación de vestuario ha dejado de ser percibido como un simple trabajo artesanal, para convertirse en uno de los más valorados por las personas. Este reconocimiento no solo se debe al tiempo invertido en la confección, como se solía calcular el precio en épocas pasadas, sino también a los detalles añadidos y al valor visual que se otorga a las prendas.
-      .col-4.col-md-4.col-lg-4
+      .col-10.col-md-6.col-lg-4
         img.mb-1(src='@/assets/curso/tema1/dama-antigua.png', alt='Dama vestida de la epoca antigua')
       
     //-3,4 y 5 caja
-    .row.justify-content-center.align-items-center.mb-5
+    .row
       .col-sm-12.col-md-5.col-lg-5
         .titulo-sexto.color-secundario
           h5 Figura 1.
@@ -67,9 +67,9 @@
     //-sexta caja aqui quite tijeras
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-3.col-md-3.col-lg-3
+      .col-8.col-md-5.col-lg-3
         figure
-          img(src='@/assets/curso/tema1/dama-cociendo.svg', alt='Dama antigua en una máquina de cocer')
+          img.mt-3.mb-3(src='@/assets/curso/tema1/dama-cociendo.svg', alt='Dama antigua en una máquina de cocer')
       .col-sm-12.col-md-7.col-lg-7
         h3.mb-4 Contexto histórico y cultural del modisto y el sastre en Colombia
         p.mb-3 En Colombia el oficio de la modistería se remonta aproximadamente a la época de 1900 e incluso, mucho antes si se habla de la época colonial y de la conquista, pues anteriormente la costura y su modelo de producción se remonta a 1700 con la llegada de los españoles y la constitución de lo que sería la nueva civilización, este fenómeno trajo consigo la implementación de aquellas estructuras comerciales y, por ende, la introducción de todos los oficios artesanales en la región.
@@ -139,7 +139,7 @@
       .col-sm-12.col-md-6.col-lg-6
         p.bm-5 En Colombia en los años 40 se acentuó la transformación de la industria textil, dado a que empezaron a ser mucho más relevantes aquellas empresas dedicadas a la producción de prendas de vestir, y a la producción y transformación de materia prima. 
         p.bm-5 Este fenómeno generó que modistas dedicadas al oficio en sus talleres, muchos de ellos ubicados en sus casas, laboraran en empresas como por ejemplo, Everfit, empresa que se dedicaba al corte y confección de prendas, lo cual produjo que la labor artesanal desarrollada en los talleres pasará a ser más industrial con la ayuda de maquinaria y procesos establecidos para el rendimiento y aprovechamiento del tiempo, así las modistas que en un inicio conservaban este  nombre pasaron, en muchas ocasiones, a realizar solo una tarea como el despeluce y el acabado final de la prenda de acuerdo con las tareas que se realizaban en una fábrica (Mesa, 2014).
-      .col-4.col-md-4.col-lg-4
+      .col-10.col-md-6.col-lg-4
         img(src='@/assets/curso/tema1/taller.png', alt='Taller de modisteria actual')
   
     .row.justify-content-center.mb-5(data-aos="fade-down")
@@ -238,13 +238,13 @@
               p Inexmoda prevé que el crecimiento futuro del mercado de ropa y calzado en Colombia será mayor.    
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-md-10.col-lg-10
+      .col-sm-12.col-md-12.col-lg-10
         p.mb-4.text-center Al igual que una línea de tiempo sobre el uso de las prendas.
         .caja-color-rosado-claro.p-4.mb-5.textos-azules
           h4.mb-3 Uso de las prendas
           LineaTiempoB.color-primario.mb-5(:datos="datosLineaTiempoC")
 
-    .h2.mb-4 Evolución de las prendas
+    .h3.mb-4 Evolución de las prendas
     p Las prendas han ido evolucionando con el pasar de los años, teniendo en cuenta diferentes factores, los cuales  determinan la decisión que toma cada persona al elegir qué ponerse a diario;  entre ellos se encuentran las condiciones físicas que tienen en cuenta el clima, la edad, la estructura, el género y la salud; la moda que establece la historia, la mercadotecnia e identidad; lo social-cultural que se relaciona con las clases sociales, la labor, la religión y los trajes típicos; lo psicológico que proyecta los estados de ánimo, desórdenes y autoestima; y por último, la sexualidad que relaciona la orientación sexual y la indumentaria.
 
     .row.justify-content-center.align-items-center.mb-5
