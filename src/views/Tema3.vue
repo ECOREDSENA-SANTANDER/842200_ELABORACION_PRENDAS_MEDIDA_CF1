@@ -23,32 +23,32 @@
         p Se llama sistema moda, dado que en sí la moda no está aislada de lo que comprende el estilo de vida de una persona, está claro que la moda y las tendencias están unidas porque una gran parte de la población opta por inclinarse hacia prendas y colores que refieren diferentes niveles sociales, que gozan de gran popularidad.  En este sentido, se entiende por estilo de vida todas aquellas áreas en las que un individuo se desenvuelve y logra interactuar en un contexto social, cultural, político, lingüístico y religioso, comprendiendo esto se logra caracterizar al sistema moda en las siguientes dimensiones:
 
     .row.justify-content-center.align-items-center.mb-5(style='background-color: #EEFBF8')
-      .col-6.col-md-4.col-lg-2
+      .col-sm-12.col-md-4.col-lg-2
         .tarjeta--boton.gastronomia.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Gastronomía.
-      .col-6.col-md-4.col-lg-2
+      .col-sm-12.col-md-4.col-lg-2
         .tarjeta--boton.musica.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Música.
-      .col-6.col-md-4.col-lg-2
+      .col-sm-12.col-md-4.col-lg-2
         .tarjeta--boton.politica.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Política.
-      .col-6.col-md-4.col-lg-2
+      .col-sm-12.col-md-4.col-lg-2
         .tarjeta--boton.conciencia.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Conciencia ambiental.
-      .col-6.col-md-4.col-lg-2
+      .col-sm-12.col-md-4.col-lg-2
         .tarjeta--boton.tecnologia.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
         figcaption.verde Tecnología.
-      .col-6.col-md-4.col-lg-2
+      .col-sm-12.col-md-4.col-lg-2
         .tarjeta--boton.estructuras.p-4
           .row.mb-5.mt-5
           .row.mb-5.mt-5
