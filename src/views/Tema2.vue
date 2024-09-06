@@ -64,7 +64,7 @@
         figure 
           img(src='@/assets/curso/tema2/taller.png', alt='La imagen muestra a una persona concentrada en la costura, utilizando una máquina de coser. Una lámpara de trabajo ilumina el área de costura para proporcionar una mejor visibilidad. El entorno parece ser un taller o espacio de trabajo de costura con varios objetos y materiales de costura en el fondo. La escena captura la dedicación y el enfoque que requiere la costura, destacando un momento de la artesanía textil.')
         figcaption Nota: Jaimes (2019).
-    p.mb-5 Es por ello que para todo aquel que quiera iniciarse en esta profesión debe tener en cuenta el mínimo de elementos que contiene la labor, por ejemplo, un espacio amplio, mesa de corte, máquina plana, fileteadora, insumos para corte y confección, además de insumos para la elaboración del patronaje. Por tanto, es importante tener en cuenta que estos espacios y la persona que los lidera debe cumplir con ciertos fines que requiere esta labor:
+    p.mb-5 Por tanto, todo aquel que quiera iniciarse en esta profesión debe tener en cuenta el mínimo de elementos que contiene la labor, por ejemplo, un espacio amplio, mesa de corte, máquina plana, fileteadora, insumos para corte y confección, además de insumos para la elaboración del patronaje. Por tanto, es importante tener en cuenta que estos espacios y la persona que los lidera debe cumplir con ciertos fines que requiere esta labor:
 
     figure.mb-5
       .video

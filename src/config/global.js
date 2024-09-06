@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Introducción: el modisto de moda',
     descripcionCurso:
-      'A lo largo de la historia el oficio de la modistería y de la confección de prendas ha dado respuesta a las necesidades de los consumidores, cubriendo así una de las necesidades básicas para el ser humano. El modisto y el sastre están comprendidos dentro del sector de la moda como uno de los oficios que requiere mayor precisión en la elaboración de prendas de vestir sobre medidas.',
+      'A lo largo de la historia el oficio de la modistería y de la confección de prendas ha dado respuesta a las necesidades de los consumidores, cubriendo así una de las necesidades básicas para el ser humano.',
     imagenBannerPrincipal: require('@/assets/curso/portada/imagen.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo.svg'),
     imagenesDecorativasBanner: [
