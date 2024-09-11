@@ -84,6 +84,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CF1_842200_DU.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -214,7 +219,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Marcos Yamid Rubiana Avellaneda ',
+          nombre: 'Marcos Yamid Rubiano Avellaneda ',
           cargo: 'Diseñador web',
           centro: 'Regional Santander - Centro Agroturístico',
         },
