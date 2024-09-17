@@ -102,15 +102,12 @@
         .tajeta.estilo10       
           img(src='@/assets/curso/imagen-2.png' alt="La imagen expone una compilación de tres anuncios publicitarios de principios del siglo XX, tal como se presentarían en una revista o periódico de la época. Cada anuncio presenta ilustraciones de mujeres y textos que destacan el producto anunciado. El anuncio de la izquierda, fechado el 2 de enero de 1924, parece promocionar un producto relacionado con la higiene. El anuncio del centro, del 25 de julio de 1925, publicita una “Crema para Blanquear” de una Sra. Gervaise Graham y hace referencia a problemas de la piel como pecas, manchas y espinillas. El anuncio de la derecha, del 20 de julio de 1929, presenta lo que parece ser un vestido u otra prenda de moda femenina. La ilustración muestra a una mujer con un vestido elegante y el texto probablemente describa las características o el atractivo del vestido.")
         .tarjeta.bgsalmon
-            p.text-center.p-3 #[b Cromos, julio 25 de 1925, vol. 20, núm. 466.]
+            p.text-center.p-3 #[b Cromos, enero 2 de 1924, vol. 17, núm. 386.]
       .col-sm-12.col-md-3.col-lg-3
         .tajeta.estilo10       
           img(src='@/assets/curso/imagen-3.png' alt="La imagen expone una compilación de tres anuncios publicitarios de principios del siglo XX, tal como se presentarían en una revista o periódico de la época. Cada anuncio presenta ilustraciones de mujeres y textos que destacan el producto anunciado. El anuncio de la izquierda, fechado el 2 de enero de 1924, parece promocionar un producto relacionado con la higiene. El anuncio del centro, del 25 de julio de 1925, publicita una “Crema para Blanquear” de una Sra. Gervaise Graham y hace referencia a problemas de la piel como pecas, manchas y espinillas. El anuncio de la derecha, del 20 de julio de 1929, presenta lo que parece ser un vestido u otra prenda de moda femenina. La ilustración muestra a una mujer con un vestido elegante y el texto probablemente describa las características o el atractivo del vestido.")
         .tarjeta.bgsalmon
-            p.text-center.p-3 #[b Cromos, julio 20 de 1929, vol. XXVIII, núm. 669.]
-    .row.justify-content-center.align-items-center
-      .col-sm-12.col-md-9.col-lg-9
-        figcaption Nota. Cobo y Acuña (2019).
+            p.text-center.p-3 #[b Cromos, octubre 1 de 1927, núm. 577]
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -123,7 +120,8 @@
         .tajeta.estilo15       
           img(src='@/assets/curso/imagen-4.png' alt="La imagen expone la portada de un antiguo patrón de costura de la marca Butterick, conocida por sus patrones para confeccionar ropa. Tiene el número de patrón 7660. En ella, se ilustran tres modelos femeninos con diferentes vestidos. La figura principal, en el centro, lleva un vestido de color rosa con un cinturón y un sombrero elegante. A la izquierda, hay otro modelo con un vestido más formal, en blanco y negro, y a la derecha, una figura con un vestido de estampado floral y un corte más casual. La portada también muestra el precio de 50 centavos, y las tallas disponibles con un busto de 32 pulgadas y talla 14. ")
         .tarjeta.bgverdeoscuro
-            p.text-center.text-white.p-3 #[b Elegancia en la moda Butterick 7660 (s.f.).]
+            p.text-center.text-white.mb-0 #[b Elegancia en la moda] 
+            p.text-center.text-white Butterick 7660 (s.f.).
         figcaption Nota. Butterick 7660 (s.f.).
       
 
@@ -141,7 +139,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-12.col-md-6.col-lg-6
-        p.bm-5 En Colombia en los años 40 se acentuó la transformación de la industria textil, dado a que empezaron a ser mucho más relevantes aquellas empresas dedicadas a la producción de prendas de vestir, y a la producción y transformación de materia prima. 
+        p.bm-5 En Colombia en los años 40 se acentuó la transformación de la industria textil, dado que empezaron a ser mucho más relevantes aquellas empresas dedicadas a la producción de prendas de vestir, y a la producción y transformación de materia prima. 
         p.bm-5 Este fenómeno generó que modistas dedicadas al oficio en sus talleres, muchos de ellos ubicados en sus casas, laboraran en empresas como por ejemplo, Everfit, empresa que se dedicaba al corte y confección de prendas, lo cual produjo que la labor artesanal desarrollada en los talleres pasará a ser más industrial con la ayuda de maquinaria y procesos establecidos para el rendimiento y aprovechamiento del tiempo, así las modistas que en un inicio conservaban este  nombre pasaron, en muchas ocasiones, a realizar solo una tarea como el despeluce y el acabado final de la prenda de acuerdo con las tareas que se realizaban en una fábrica (Mesa, 2014).
       .col-10.col-md-6.col-lg-4
         img(src='@/assets/curso/tema1/taller.png', alt='Taller de modisteria actual')

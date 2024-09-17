@@ -11,8 +11,8 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/LEDoWUeUKVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Elaboración de prendas de vestir a la medida.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/C2d4a1pw3jU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: El modisto de moda.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-md-3.col-lg-3
